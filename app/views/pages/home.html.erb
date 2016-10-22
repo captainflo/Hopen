@@ -1,58 +1,5 @@
 
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="page-scroll navbar-header" href="#page-top"><span class="icon-coeur_full"></span></a>
-                <a class="navbar-brand page-scroll title_logo" href="#page-top"><%= t "pages.home.header.title"%></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#features"><%= t "pages.home.header.navbar.feature" %></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download"><%= t "pages.home.header.navbar.download" %></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#hopen_box"><%= t "pages.home.header.navbar.hopen_box" %></a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <% if user_signed_in? %>
-                    <%= link_to edit_user_registration_path do %>
-                    <%= image_tag current_user.avatar.url(:medium), class: " page-scroll img_avatar" %>
-                    <% end %>
-                    <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
-                    <% else %>
-                    <li><%= link_to t('pages.home.header.navbar.sign_in'), new_user_session_path, class: "active" %></li>
-                    <% end %>
-
-                    <% if I18n.locale == :fr %>
-                    <li><%= link_to_unless_current image_tag('flag5.png'), locale: "en"%></li>
-                    <% end %>
-                    <% if I18n.locale == :en %>
-                    <li><%= link_to_unless_current image_tag('flag6.png'), locale: "fr", class:"fr" %></li>
-                    <% end %>
-
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-        <%= render 'layouts/alerts' %>
-    </nav>
+<%= render partial: 'layouts/navbar' %>
 
     <header>
       <%= image_tag"test3.png",class:"img-responsive_hand"%>
@@ -155,12 +102,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading"><%= t "download.title"%></h2>
-                    <p><%= t "download.title_under"%></p>
-                    <div class="badges">
-                      <%= image_tag "app-store.jpg", class:'img_download' %>
-                      <%= image_tag "google.jpg", class:'img_download'%>
-                    </div>
+                    <h2 class="section-heading"><%= t "download.title1"%></h2>
+                    <p><%= t "download.title_under1"%>
+                      <br><%= t "download.title_under2"%>
+                    </p>
+                    <hr>
+                    <%= link_to (image_tag "cup.png"),new_user_session_path, class: "img_cup" %>
+                    <br>
+                    <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-outline btn-xl"%>
                 </div>
             </div>
         </div>

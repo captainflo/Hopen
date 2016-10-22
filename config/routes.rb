@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get 'pages/mention'
   get 'pages/team'
+  get 'pages/contest'
 
   devise_for :users
   root to: "pages#home"

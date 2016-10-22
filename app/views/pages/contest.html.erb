@@ -1,0 +1,58 @@
+
+<div class="body_contest">
+  <%= render partial: 'layouts/navbar' %>
+  <h1 class="title_contest"><span class="icon-coeur_full3"></span><%= t('contest.title') %></h1>
+  <br>
+  <p class='text_contest'><%= t('contest.title_under')%></p>
+  <br>
+  <p class='text_under_contest'><%= t('contest.title_under1')%>
+  <br><%= t('contest.title_under2')%>
+  <br><%= t('contest.title_under3')%></p>
+
+    <%=image_tag "family_slide", class: "picture_contest" %>
+  <h1 class="title_contest"><span class="icon-coeur_full3"></span><%= t('contest.title2') %></h1>
+  <p class='text_contest'><%= t('contest.title2_under')%></p>
+  <div class='principal_contest'>
+    <div class="element_contest">
+        <%=image_tag "test4.jpg"%>
+      <!--<h3><%= t "features.title_1"%></h3>
+      <p class="text-muted"><%= t "features.description_1"%></p>-->
+      <div class="element_contest_text">
+        <h1>1</h1>
+        <%= t('contest.element1')%></div>
+    </div>
+
+    <div class="element_contest">
+        <%=image_tag "test5.jpg"%>
+      <!--<h3><%= t "features.title_1"%></h3>
+      <p class="text-muted"><%= t "features.description_1"%></p>-->
+      <div class="element_contest_text">
+        <h1>2</h1>
+        <%= t('contest.element2')%>
+      </div>
+    </div>
+
+    <div class="element_contest">
+        <%=image_tag "test6.jpg"%>
+      <!--<h3><%= t "features.title_1"%></h3>
+      <p class="text-muted"><%= t "features.description_1"%></p>-->
+      <div class="element_contest_text">
+        <h1>3</h1>
+        <%= t('contest.element3')%>
+      </div>
+    </div>
+  </div>
+  <p class='text_under_contest'><%= t('contest.dead_line')%></p>
+
+  <div class='principal_contest'>
+    <div class="element_contest_down">
+      <div class="element_contest_text_under">
+        <h1 class="title_contest"><%= t('contest.footer_title')%></h1>
+        <p><%= t('contest.p')%></p>
+      </div>
+    </div>
+
+    <div class="element_contest_down">
+        <%=image_tag "test7.jpg"%>
+    </div>
+  </div>
