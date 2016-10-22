@@ -25,7 +25,7 @@ fr:
       header:
         title: "Hopen Family"
         description_1: "Je peux envoyer mes photos à mes grands-parents"
-        description_2: "Ils les reçoivent instantannément"
+        description_2: "Ils les reçoivent instantanément"
         button: "Commencez maintenant !"
         navbar:
           feature: "Concept"
@@ -49,8 +49,8 @@ fr:
 ###################################
   download:
     title1: "Jouez avec nous !"
-    title_under1: "Avant de lancer Hopen Family, jouez avec nous
-      et gagnez votre Hopen."
+    title_under1: "Avant de lancer Hopen Family, faites partie des favoris à tester l'Hopen
+      en participant à notre premier concours."
     title_under2: "Inscrivez-vous pour en savoir plus."
     title: "Télécharger l'application"
     title_under: "Notre application est disponible sur l'ensemble de vos terminaux ! Téléchargez-la maintenant et commencez l'aventure"
@@ -187,7 +187,7 @@ Parce que l’image d’une personne est une donnée à caractère personnel,
     Hopen Family à cette adresse : "
     element3: "Récoltez le maximum de J'adore et gagnez votre Hopen"
     dead_line: "DATE DE FIN : 30 JANVIER 2017"
-    footer_title: "PRIX : HOPEN"
-    p: "Branchez votre Hopen à tout type de supports et vos grands-parents
-      recevrons instantannément vos photos via l'Application Hopen Family."
+    footer_title: "CADEAU : DECOUVREZ L'HOPEN"
+    p: "Faites partie des privilégiés, branchez votre Hopen à tout type de supports et vos grands-parents
+      recevrons instantanément vos photos via l'Application Hopen Family."
 ##########################################
