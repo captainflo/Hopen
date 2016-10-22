@@ -11,7 +11,9 @@
 
     <%=image_tag "family_slide", class: "picture_contest" %>
   <h1 class="title_contest"><span class="icon-coeur_full3"></span><%= t('contest.title2') %></h1>
-  <p class='text_contest'><%= t('contest.title2_under')%></p>
+  <p class='text_contest'><%= t('contest.title2_under')%>
+    <p class='text_under_contest'><%= t('contest.dead_line')%></p>
+  </p>
   <div class='principal_contest'>
     <div class="element_contest">
         <%=image_tag "test4.jpg"%>
@@ -23,12 +25,13 @@
     </div>
 
     <div class="element_contest">
-        <%=image_tag "test5.jpg"%>
+      <a class="text_link_Facebook" href="http://www.facebook.com/hopenfamily"><%=image_tag "test5.jpg"%></a>
       <!--<h3><%= t "features.title_1"%></h3>
       <p class="text-muted"><%= t "features.description_1"%></p>-->
       <div class="element_contest_text">
         <h1>2</h1>
-        <%= t('contest.element2')%>
+         <%= t('contest.element2')%>
+         <a class="text_link_Facebook" href="http://www.facebook.com/hopenfamily">Facebook</a>
       </div>
     </div>
 
@@ -42,7 +45,6 @@
       </div>
     </div>
   </div>
-  <p class='text_under_contest'><%= t('contest.dead_line')%></p>
 
   <div class='principal_contest'>
     <div class="element_contest_down">

@@ -48,9 +48,10 @@ en:
     description_3: "hello 3"
 ###################################
   download:
-    title1: "Play with us !"
-    title_under1: "cdkcnckdn"
-    title_under2: "kldkldck"
+    title1: "Play with us!"
+    title_under1: "Before we launch Hopen Family, play with us.
+      and win your Hopen for free."
+    title_under2: "Register to know more about it."
     title: "Download our App"
     title_under: "Our app is available on any mobile device! Download now to get started!"
 ###################################
@@ -79,7 +80,7 @@ en:
     love2: "new friends!"
 ##################################
   footer:
-    copy: "2016 Hopen Project. All Rights Reserved."
+    copy: "2016 Hopen Family by Hopen Project. All Rights Reserved."
     privacy: "Privacy"
     terms: "Terms"
     contact: "Contact us"
@@ -170,20 +171,22 @@ Parce que l’image d’une personne est une donnée à caractère personnel,
     description_12: "Ces Conditions Générales seront régies et interprétées selon les lois françaises. Hopen Family décide de soumettre tout différent concernant l'accès, l'utilisation et/ou la souscription de services à travers du Site Web, aux tribunaux français sauf au cas où la loi stipulerait autre chose."
 ###################################
   contest:
-    title: "WE ARE COMING SOON !"
+    title: "WE ARE COMING SOON!"
     title_under: "Before we launch Hopen Family, play with us
       and win your Hopen for free."
     title_under1: "Family is one of the most important things in our lives."
     title_under2: "Share with us your amazing family moments and enjoy Christmas time"
     title_under3: "to send us beautiful pictures."
-    title2: "OUR CONTEST !"
-    title2_under: "Free game contest, The 2 winners will be selected by the Hopen Team."
-    element1: "Take the best selfie
+    title2: "OUR CONTEST"
+    title2_under: "Welcome to our first Hopen Contest, the 2 winners will be contacted by the Hopen Team."
+    element1: "Take the best family selfie
     you would send to your
     grandparents"
-    element2: "Share it on www.facebook.co m/hopenfamily"
-    element3: "Get the maximum of Likes to win our first Hopen"
+    element2: "Share it on our Official Facebook
+    Hopen Family webpage : "
+    element3: "Get the maximum of Love to win your first Hopen"
     dead_line: "DEADLINE : 30th of JANUARY 2017"
-    footer_title: "PRICE : HOPEN"
-    p: "Plug your Hopen to any devise and your grandparents
-      will receive instantly pictures of you"
+    footer_title: "AWARD : HOPEN"
+    p: "Plug your Hopen to any device and your grandparents
+      will receive instantly pictures of you and your relatives via the Hopen Family App."
+##########################################

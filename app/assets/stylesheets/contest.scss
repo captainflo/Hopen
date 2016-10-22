@@ -62,6 +62,7 @@
     border-radius: 3px;
     text-align: center;
     }
+
   .element_contest_text{
     width: 350px;
     height: 150px;
@@ -69,11 +70,12 @@
     margin-right: auto;
     border-radius: 3px;
     text-align: center;
+    font-size: 18px;
 
     }
 
     .element_contest_text_under{
-      margin-top: 150px;
+      margin-top: 80px;
       width: 350px;
       height: 150px;
       margin-left: auto;
@@ -86,4 +88,9 @@
       .img_cup{
         margin-top: 10px;
         margin-bottom: -40px;
+      }
+
+      .text_link_Facebook{
+        color: #2eaf95;
+        font-weight: bold;
       }
