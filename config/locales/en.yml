@@ -128,9 +128,9 @@ en:
     receive_confirm: "Didn't receive confirmation instructions?"
     receive_unlock:  "Didn't receive unlock instructions?"
     sign_in_with: "Sign in with"
-  ##############################
-    password:
-      button: "Send me instruction for password"
+################################
+  password:
+    button: "Send me instructions for password"
 ################################
   team:
     description_1: "We are passionate and confident in the success of this solution."
