@@ -138,17 +138,33 @@ fr:
     description_2: "Complementary skills, strong social values shared and demonstrated expertise in the health sector."
 ################################
   mention:
-    title: 'Mentions légales'
-    title_1: "Editeur et responsable de la publication"
-    description_1: "La Société Hopen Project au capital de 8000 Euros, représentée en la personne de Madame Nelly MEUNIER CEO, Monsieur Pierre MEUNIER CTO et Monsieur Yoann EBRARD CFO en leur qualité d’associés."
-    description_2: "Les propos tenus sur ce Site Web ne représentent que et uniquement l’opinion de leur auteur, et n’engagent pas les sociétés, entreprises ou collectifs auxquels il contribue ou dont il peut être associé ou employé."
-    title_2: "Hébergement"
-    description_3: "Ce Site Web est hébergé par OVH."
-    title_3: "Propriétaire du site"
-    description_4: "Nous vous informons que le présent Site Web est la propriété de la société Hopen Project."
-    title_4: "Données personnelles"
-    description_5: "Conformément aux articles 38 à 40 de la loi du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous avez un droit d’accès, de modification et d’opposition sur vos données personnelles enregistrées sur ce Site Web."
-    title_5: "Contenu et comportement de l'utilisateur"
+    title: 'Conditions générales d’utilisation'
+    title_under: "Bienvenue sur la nouvelle Application Hopen Family. Le contenu du site www.hopen.family est élaboré et régi en accord avec les lois françaises. Voici les Conditions Générales d’Utilisation."
+    title_1: "Définition"
+    description_1: "Hopen Project : désigne l’entreprise en charge du projet Hopen Family
+Hopen Family : désigne le projet porté par Hopen Project
+Service(s) : désigne l’un ou l’ensemble des services fournis par Hopen Project et accessibles en ligne à partir du Site web www.hopen.family, ou directement à partir de l’adresse web du Service considéré.
+Site : désigne le Site web exploité par Hopen Project disponible à l’adresse internet suivante : www.hopen.family
+Utilisateur : désigne la personne qui utilise le Site www.hopen.family ou l’un des services proposés sur ledit Site."
+    title_2: "Conditions Générales"
+    description_3: "Les présentes Conditions d’Utilisation sont la propriété de www.hopen.family géré par l’entreprise Hopen Project.
+     La diffusion, exploitation, représentation, reproduction ou utilisation sur tout support, des présentes Conditions Générales à des fins
+      autres que strictement personnelles, est soumise à l’autorisation préalable d’Hopen Project. A défaut de l’autorisation d’un membre fondateur pour l’utilisation de ces CGU, le contrevenant à des poursuites pénales et civiles prévues par la loi. Si vous continuez à naviguer et utiliser ce Site, vous acceptez de respecter et d’être lié par les présentes Conditions Générales d’Utilisation, qui, avec notre politique de confidentialité régissent Hopen Project et la relation entre les Utilisateurs du Site et Hopen Project. Tout accès et/ou utilisation du Site www.hopen.family suppose l’acceptation et le respect de l’ensemble des termes des présentes Conditions Générales d’Utilisation. Dans le cas où l’Utilisateur ne souhaite pas accepter tout ou partie des présentes Conditions Générales d’Utilisation, il lui est demandé de renoncer à tout usage du Site."
+    title_3: "Article 1 :Hopen Family Le Site"
+    description_4: "www.hopen.family est un site multi-comptes qui a pour vocation première de permettre aux familles d’envoyer des photos directement à leurs grands parents. L’accès y est restreint par création d’un compte utilisateur afin de limiter les accès abusifs. La collecte des données recueillies reste la propriété d’Hopen Project et cela pour toute la durée de l’exploitation de ce service."
+    title_4: "Article 2 : Hopen Family Accès et inscription"
+    title_under4: "2.1 Accès au service"
+    description_5: "Le Service est accessible à tout Utilisateur disposant d’un accès à internet. Tous les coûts afférents à l’accès au Service, que ce soit les frais matériels, logiciels ou d’accès à internet sont exclusivement à la charge de l’Utilisateur. Il est seul responsable du bon fonctionnement de son équipement informatique ainsi que de son accès à internet. Hopen Project met en œuvre tous les moyens raisonnables à sa disposition pour assurer un accès de qualité au Service, mais n’est tenu à aucune obligation d’y parvenir. Hopen Project ne peut, en outre, être tenu responsable de tout dysfonctionnement du réseau ou des serveurs ou de tout autre évènement échappant au contrôle raisonnable, qui empêcherait ou dégraderait l’accès au Service. Hopen Project se réserve la possibilité d’interrompre, de suspendre momentanément ou de modifier sans préavis l’accès à tout ou partie du Service, afin d’en assurer la maintenance, ou pour toute autre raison, sans que l’interruption n’ouvre droit à aucune obligation ni indemnisation."
+    title_under5: "2.2 Données Personnelles"
+    description_under5: "Dans une logique de respect de la vie privée de ses Utilisateurs, Hopen Project s’engage à ce que la collecte et le traitement d’informations personnelles, effectués au sein du présent Site, soient effectués conformément à la loi n°78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, dite Loi “ Informatique et Libertés ”. Toutes informations collectées par Hopen Project resteront confidentielles. L’Utilisateur s’engage à respecter l’ordre public et à ne pas porter atteinte aux droits d’autrui, notamment en utilisant le nom, le prénom, l’adresse email d’un tiers. L’Utilisateur s’engage à donner des informations valides concernant son identité personnelle.
+Hopen Project se décharge de toute responsabilité quant à une utilisation frauduleuse du Site par l’Utilisateur. L’Utilisateur est seul responsable de l’utilisation qu’il fait du Site.
+Hopen Family est un service qui s’exerce dans le respect de l’ordre public et des bonnes mœurs selon l’Article 6 du Code Civil mais il également assujetti à la législation en vigueur selon les différentes lois ci-dessous :
+Loi informatique et libertés du 6 Janvier 1978 modifié le 6 aout 2004
+La directive européenne du 24 Octobre 1995
+Loi relative à l’information et la protection des consommateurs
+Loi du 17 Juillet 1970 relative au droit et au respect de la vie privée
+Loi du 1er Juillet 1992 relative au code de la propriété intellectuelle"
+    title_under6: "2.2 Données Personnelles"
     description_6: "Vous êtes entièrement responsable de l'ensemble des informations, données, textes, logiciels, musiques, sons, photographies, dessins, vidéos, messages, tags et autres contenus que vous transmettez via ce Site Web. Vous vous engagez à ne rien faire, ou à ne transmettre aucun contenu via ce Site Web, qui :
 - Enfreindrait les lois (sur la diffamation par exemple) ou la réglementation, ou porterait atteinte aux droits de tiers (par exemple les lois sur les droits d'auteur ou sur la vie privée) ou encouragerait les autres à le faire ;
 - Serait obscène, menaçant, violent, injurieux, préjudiciable envers des tiers, notamment des mineurs, porterait atteinte à la vie privée de tiers ou contiendrait des propos de haine, de harcèlement, de discrimination ou tout autre caractère autrement répréhensible ;
@@ -158,18 +174,35 @@ fr:
 - interromprait ou altérerait le fonctionnement normal du Site Web; ou
 - collecterait du contenu ou des informations appartenant à un utilisateur, ou accéderait autrement au Site Web par le biais de moyens automatiques (tels que des spambots, des
 robots ou des scrapers) sans notre autorisation."
+    title_under7: "2.3 Conditions d’Inscription"
+    description_under6: "La sécurité sur Internet reste primordiale et surtout pour les enfants. Nous rappelons que toute personne voulant participer au concours est libre de s’inscrire. Néanmoins, aucun Utilisateur âgé de moins de 13 ans ne devrait avoir accès à la plateforme.
+L’adhérent garantit que les données qu’il communique sont exactes et conformes à la réalité. Il s’engage à informer www.hopen.family si modification il y a. Toutes adresses jugées non conformes seront supprimées.
+Lorsque les conditions nécessaires à l'inscription sont remplies, chaque utilisateur dispose d'un identifiant et d'un mot de passe, qui sont strictement personnels et confidentiels et qui ne devront pas être communiqués ni partagés par le membre avec des tiers."
     description_7: "Hopen Project n'a aucune obligation de surveiller le contenu des utilisateurs. Hopen Family peut refuser, reclasser ou supprimer tout contenu si celui-ci est jugé répréhensible. Par conséquent vous assumez les risques relatifs à toute utilisation d'un contenu, notamment quant à son exactitude, exhaustivité ou utilité."
-    title_6: "Licences, droits de reproduction"
-    description_8: "Tous droits réservés. La reproduction du contenu de ce Site Web, en tout ou en partie, est interdite sans la permission écrite de l’auteur (sauf mention particulière). Tout autre matériel contenu sur ce Site Web ne nous appartenant pas : photos, textes, images, logos, noms de produits ou marques citées, etc. est la propriété de leurs détenteurs respectifs."
-    title_7: "Droit à l’image :"
-    description_9: "Toute personne dispose d’un droit exclusif sur son image et sur l’utilisation qui en est faite. Elle peut donc s’opposer à sa reproduction et à sa diffusion.
-Parce que l’image d’une personne est une donnée à caractère personnel, les principes de la loi “informatique et libertés” s’appliquent. La diffusion de l’image d’une personne doit se faire dans le respect des principes protecteurs de la loi du 6 janvier 1978 modifiée."
-    title_8: "Cookies"
-    description_10: "L’utilisateur est informé que, lors de ses visites sur le Site Web, un cookie peut s’installer automatiquement sur son logiciel de navigation. Un cookie est un système qui permet à un Site Web de stocker des informations textuelles au sein du navigateur. Le navigateur enregistre ces données dans des fichiers sur le disque dur de l'ordinateur. Le paramétrage du logiciel de navigation permet d’informer de la présence de cookie et éventuellement de la refuser de la manière décrite à l’adresse suivante : http://www.cnil.fr/"
-    title_9: "Conseils pour les mineurs"
-    description_11: "Hopen Family se préoccupe de la sécurité et du respect de la vie privée de ses utilisateurs, en particulier des enfants. Pour cette raison, les parents souhaitant autoriser l'accès de leurs enfants aux services proposés par Hopen Family doivent les aider à configurer leur compte, surveiller leur accès aux services et déterminer, en tant que représentants légaux, les services et les contenus qu'ils jugent adaptés pour eux. En autorisant leur enfant à accéder à ces services, les parents reconnaissent et acceptent que ces services puissent inclure des services de messagerie électronique, de communauté et de réseaux sociaux."
-    title_10: "Législation applicable et juridiction compétente"
-    description_12: "Ces Conditions Générales seront régies et interprétées selon les lois françaises. Hopen Family décide de soumettre tout différent concernant l'accès, l'utilisation et/ou la souscription de services à travers du Site Web, aux tribunaux français sauf au cas où la loi stipulerait autre chose."
+    title_6: "Article 3. Hopen Family Utilisation du site"
+    description_8: "Une fois inscrit, l’adhérent bénéficiera d’un accès aux Services disponibles sur le site www.hopen.family
+Il se peut cependant que pour des raisons indépendantes de la volonté d’Hopen Project le site soit temporairement indisponible pour des raisons techniques indépendantes lié à des soucis de serveur, ou problème de connexions internet. Hopen Project fera au mieux pour rétablir son service tout en sachant que ces soucis seront dépendante des causes extérieures.
+Enfin, le site www.hopen.family s’engage à apporter une attention particulière au service fournis à tous ses adhérents
+Toutefois la responsabilité de www.hopen.family ne peut être mis en cause dans les cas suivants :
+●	Interruption momentanée d’une durée de quelques minutes dans le cadre de l’optimisation du site.
+●	Difficultés de fonctionnement ou interruption momentanée du service indépendant de sa volonté notamment en cas d’interruption des services informatiques, d’électricité ou des télécommunications
+●	Fermeture temporaire du site www.hopen.family"
+    title_7: "Article 4. Propriété intellectuelle"
+    description_9: "La structure générale du site www.hopen.family , ainsi que les textes, graphiques, logo, images, sons et vidéos la composant, sont la propriété d’Hopen Project. Toute représentation et/ou reproduction et/ou exploitation partielle ou totale des contenus et services proposés par le site, par quelque procédé que ce soit, sans l'autorisation préalable et par écrit de l’entreprise Hopen Project est strictement interdite."
+    title_8: "Article 5. Responsabilité"
+    description_10: "Hopen Project ne pourra être tenu pour responsable du fait de l’utilisation non conforme du site par un utilisateur avec les présentes termes et conditions. De plus, le site offre un service permettant de favoriser l’interaction entre la famille utilisatrice du site et les seniors. Le dispositif mis en place n’a seulement que pour but de diminuer le sentiment de solitude chez les personnes âgées.
+L’utilisation frauduleuse du site pourra engager la responsabilité pénale de l’utilisateur.
+L’utilisateur a pour obligation de ne pas utiliser les services à des fins professionnelles, commerciales, lucratives. Il s'interdit tous propos ou contenus contrevenant aux droits d'autrui ou à caractère diffamatoire, injurieux, obscène, offensant, violent ou incitant à la violence, politique, raciste ou xénophobe et de manière générale tous propos ou contenus contraires à l’ordre public, aux lois et règlements en vigueur. Il s’oblige à ne pas poster, indiquer, ni diffuser sous quelque forme que ce soit des informations ou contenus ayant pour effet de diminuer, de désorganiser, d'empêcher l'utilisation normale du Services."
+    title_9: "Article 6. Règlement des litiges"
+    description_11: "Hopen Project et l’Utilisateur sont tenus de respecter les lois. En cas de tout litiges intervenant entre Hopen Project et un tiers, le premier choix sera la résolution à l’amiable du litige. Si les deux parties ne peuvent trouver entente alors Hopen Project choisi comme Forum les tribunaux Français en se soumettant à la Loi Française."
+    title_10: "Article 7: Participation de l’Utilisateur au Concours  « Hopen »"
+    description_12: "L’Utilisateur est libre de participer au premier concours Hopen.
+Dans le cadre d’un projet publicitaire, l’entreprise Hopen Project propose aux Utilisateurs de participer à un concours photo dans le cadre du lancement du projet de Hopen Family. Les utilisateurs devront suivre les étapes du concours (disponible sur www.hopen.family une fois l’utilisateur enregistré. Ils devront prendre une photo de famille et la poster sur la page www.facebook.com/hopenfamily. Ce concours ne constitue en aucun cas un contrat de travail et n’entraîne aucune rémunération de la part d’Hopen Project. Les 2 participants récoltant le plus de “ J’adore ” sur la page Facebook www.facebook.com/hopenfamily recevront gratuitement l’un des prototypes Hopen. En participant à ce concours, les Utilisateurs donnent la permission à Hopen Project d’utiliser les photos publiées sur la page Facebook Hopen Family. Hopen Project estime la date de fin du concours au 31 Janvier 2017. L’Utilisateur est libre et éclairé et c’est de sa propre initiative qu’il se porte volontaire au concours. Les modalités, les règles et les résultats du concours seront organisés par Hopen Project qui informera les utilisateurs gagnants. En publiant sa photo sur la page Facebook Hopen Family, l'utilisateur reconnait que sa photo pourra être sélectionnée pour apparaître dans les sites d’Hopen Project.
+Mentions légales
+Hopen Project S.A.S.
+Capital 1800 Euros
+SIRET 81193945300015
+www.hopenproject.com "
 ###################################
   contest:
     title: "NOUS ARRIVONS BIENTOT !"
