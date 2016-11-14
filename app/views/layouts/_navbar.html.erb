@@ -19,6 +19,9 @@
                 <% end %>
                 <li><%= link_to "Coming Soon", pages_contest_path, class:"page-scroll" %></li>
                 <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
+                  <% if current_user.email == "bob@gmail.com" %>
+                    <li><%= link_to 'Database', users_path %> </li>
+                  <% end %>
                 <% else %>
                 <li>
                     <a class="page-scroll" href="#features"><%= t "pages.home.header.navbar.feature" %></a>

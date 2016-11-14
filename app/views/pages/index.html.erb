@@ -1,0 +1,23 @@
+<div class="body_contest">
+  <%= render partial: 'layouts/navbar' %>
+</div>
+<br>
+<br>
+<br>
+<br>
+<table>
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Email</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |user| %>
+    <tr>
+      <td><%= user.firstname %> <%= user.lastname %></td>
+      <td><%= user.email %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

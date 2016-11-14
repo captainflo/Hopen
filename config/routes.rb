@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'pages/mention'
   get 'pages/team'
   get 'pages/contest'
-
+  get 'pages/db' => 'pages#index', as: :users
   devise_for :users
   devise_scope :user do
   authenticated :user do
