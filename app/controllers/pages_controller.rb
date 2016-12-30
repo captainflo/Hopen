@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   before_action :authenticate_user!, except: [:home,:team, :mention]
   def home
-    @first_counter = Counter.first
   end
   def mention
   end
