@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   before_action :authenticate_user!, except: [:home,:team, :mention]
   def home
+    @first_counter = Counter.first
   end
   def mention
   end
@@ -9,7 +10,7 @@ class PagesController < ApplicationController
   def contest
   end
   def index
-    if current_user.email == "bob@gmail.com"
+    if current_user.email == "flo@gmail.com"
       @users = User.all
     else
       redirect_to authenticated_root_path

@@ -23,14 +23,15 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link href="http://ufonts.com/fonts/cupid-de-locke.html" rel="stylesheet">
     <%= favicon_link_tag 'favicon.ico' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script type="text/javascript"></script>
+
 
   </head>
 
   <body>
     <%= yield %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= yield(:pouce) %>
   </body>
 </html>

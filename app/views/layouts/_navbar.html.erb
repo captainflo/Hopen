@@ -17,9 +17,9 @@
                 <%= link_to edit_user_registration_path do %>
                 <%= image_tag current_user.avatar.url(:medium), class: " page-scroll img_avatar" %>
                 <% end %>
-                <li><%= link_to "Coming Soon", pages_contest_path, class:"page-scroll" %></li>
+                <!-- <li><%= link_to "Coming Soon", pages_contest_path, class:"page-scroll" %></li> -->
                 <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
-                  <% if current_user.email == "bob@gmail.com" %>
+                  <% if current_user.email == "flo@gmail.com" %>
                     <li><%= link_to 'Database', users_path %> </li>
                   <% end %>
                 <% else %>
