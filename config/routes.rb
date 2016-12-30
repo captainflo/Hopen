@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   get 'pages/db' => 'pages#index', as: :users
   devise_for :users
   devise_scope :user do
+  # user go directly to page contest after connect
+  # authenticated :user do
+  #   root 'pages#contest', as: :authenticated_root
+  # end
   unauthenticated do
     root 'pages#home', as: :unauthenticated_root
   end
