@@ -30,11 +30,12 @@ en:
         navbar:
           feature: "Concept"
           download: "Download"
-          download1: "Contest"
+          download1: "News"
           hopen_box: "Features"
           sign_in: "Sign In"
           sign_up: "Sign Up"
           sign_out: "Sign Out"
+          support_us: "Support us"
 ##################################
   features:
     title: "Concept"
@@ -80,7 +81,7 @@ en:
     love2: "new friends!"
 ##################################
   footer:
-    copy: "2016 Hopen Family by Hopen Project. All Rights Reserved."
+    copy: "2017 Hopen Family by Hopen Project. All Rights Reserved."
     privacy: "Privacy"
     terms: "Terms"
     contact: "Contact us"

@@ -7,7 +7,7 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="page-scroll navbar-header" href="#page-top"><span class="icon-coeur_full"></span></a>
-            <a class="navbar-brand page-scroll title_logo" href="#page-top"><%= t "pages.home.header.title"%></a>
+            <!-- <a class="navbar-brand page-scroll title_logo" href="#page-top"></a> -->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,19 +24,34 @@
                   <% end %>
                 <% else %>
                 <li>
-                    <a class="page-scroll" href="#features"><%= t "pages.home.header.navbar.feature" %></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#download"><%= t "pages.home.header.navbar.download1" %></a>
-                </li>
+                                     <a class="page-scroll" href="#features"><%= t "pages.home.header.navbar.feature" %></a>
+                                 </li>
+                <% if I18n.locale == :fr %>
+                      <li>
+                          <a class="page-scroll" href="http://hopenproject.com/fr/actualites/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                      </li>
+                    <% end %>
+                    <% if I18n.locale == :en %>
+                      <li>
+                        <a class="page-scroll" href="http://hopenproject.com/news/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                      </li>
+                    <% end %>
                 <li>
                     <a class="page-scroll" href="#hopen_box"><%= t "pages.home.header.navbar.hopen_box" %></a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+                <% if I18n.locale == :fr %>
+                    <li>
+                        <a class="page-scroll" href="http://hopenproject.com/fr/temoignages-hopen-family/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
+                    </li>
+                  <% end %>
+                  <% if I18n.locale == :en %>
+                  <li>
+                        <a class="page-scroll" href="http://hopenproject.com/hopen-family-testimonials/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
+                  </li>
+                  <% end %>
                 <li><%= link_to t('pages.home.header.navbar.sign_in'), new_user_session_path, class: "active" %></li>
-                <% end %>
+
+              <% end %>
 
                 <% if I18n.locale == :fr %>
                 <li><%= link_to_unless_current image_tag('flag5.png'), locale: "en"%></li>
@@ -44,7 +59,6 @@
                 <% if I18n.locale == :en %>
                 <li><%= link_to_unless_current image_tag('flag6.png'), locale: "fr", class:"fr" %></li>
                 <% end %>
-
 
             </ul>
         </div>

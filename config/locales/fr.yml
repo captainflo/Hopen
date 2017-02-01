@@ -30,11 +30,12 @@ fr:
         navbar:
           feature: "Concept"
           download: "Télécharger"
-          download1: "Concours"
-          hopen_box: "Fonctionnalités"
+          download1: "Actualités"
+          hopen_box: "Solution"
           sign_in: "Connecter"
           sign_up: "Enregistrer"
           sign_out: "Déconnecter"
+          support_us: "Soutenez-nous"
 #####################################
   features:
     title: "Concept"
@@ -57,7 +58,7 @@ fr:
 
 ###################################
   hopen_box:
-    title: "Fonctionnalités"
+    title: "Solution"
     title_under_3: "Hopen Family a été pensé comme l'outil de connexion le plus rapide entre la famille et les grands-parents. "
     title_under_4: "Soyez prêts à partager vos moments avec eux."
     title_1: "Grands-Parents"
@@ -81,10 +82,10 @@ fr:
     love2: "new friends"
 ##################################
   footer:
-    copy: "2016 Hopen Family by Hopen Project. Tout droits réservés."
+    copy: "2017 Hopen Family by Hopen Project. Tout droits réservés."
     privacy: "Mentions légales"
     terms: "Conditions d'utilisation"
-    contact: "Contact nous"
+    contact: "Contactez-nous"
 ##################################
   sign_in:
     title: "Connecter"
