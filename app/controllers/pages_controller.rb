@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   def contest
   end
   def index
-    if current_user.email == "flo@gmail.com"
+    if current_user.email == "nelly@gmail.com"
       @users = User.all
     else
       redirect_to authenticated_root_path
