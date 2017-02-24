@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <% if user_signed_in? %>
                   <%= link_to edit_user_registration_path do %>
-                    <% avatar_url = current_user.facebook_picture_url %>
+                    <% avatar_url = current_user.facebook_picture_url || current_user.photo %>
                     <%= image_tag current_user.avatar.url(:medium), class: " page-scroll img_avatar" %>
                   <% end %>
                   <!-- <li><%= link_to "Coming Soon", pages_contest_path, class:"page-scroll" %></li> -->
