@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   # Be sure to update your create() and update() controller methods.
 
   def user_params
-    params.require(:user).permit(:email, :avatar, :lastname, :firstname)
+    params.require(:user).permit(:email, :avatar, :lastname, :firstname, :photo, :photo_cache)
   end
 
 end
