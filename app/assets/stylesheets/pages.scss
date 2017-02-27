@@ -11,11 +11,54 @@
     font-style: normal;
 }
 
+.banner-home {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-home h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner-home h2{
+  color: #fff;
+}
+
+.banner-home hr {
+    display: block;
+    height: 1px;
+    width: 200px;
+    border: 0;
+    border-top: 3px solid #fff;
+}
+
+.banner-home p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+#partner{
+background: #4AC29A; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4AC29A , #BDFFF3); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4AC29A , #BDFFF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 header, #download, #contact, {
   background: #2DAF94; /* fallback for old browsers */
 }
-
+#follow{
+  background: #fff;
+}
 .btn-outline{
 color: white; /* fallback for old browsers */
 border-color: #4f4f4F;
@@ -51,6 +94,13 @@ img.page-scroll.navbar-header{
     position: relative;
     margin-top: -140px;
   }
+}
+
+header h1{
+font-size: 50px;
+}
+.text-muted{
+  color: #fff;
 }
 
 .navbar-default .nav > li > a{
@@ -133,6 +183,10 @@ margin-left: auto;
 }
 
 //////Page_header////
+
+.title_concept{
+  margin-bottom: -220px;
+}
 .header_title{
   display: block;
   margin: 510px 0px 0px 0px;

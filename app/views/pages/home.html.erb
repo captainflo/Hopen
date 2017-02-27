@@ -1,18 +1,28 @@
 
 <%= render partial: 'layouts/navbar' %>
-
-    <header>
+<div class="banner-home " style="background-image: url('<%= image_path 'hopenfamily.png' %>');">
+  <div class="banner-content">
+    <h1>Hopen Family</h1>
+    <hr class="text-center">
+    <h2><%= t "home.title_under" %></h2>
+    <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-lg btn-danger"%>
+  </div>
+</div>
+    <header id="concept">
       <%= image_tag"test3.png",class:"img-responsive_hand"%>
         <div class="container">
+          <br><br><br><br>
+          <div class="title_concept text-center">
+              <h1><%= t "features.title" %></h1>
+              <p class="text-muted"><%= t "features.title_under_1"%><br><%= t "features.title_under_2"%></p>
+              <hr>
+          </div>
             <div class="row">
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                          <h1>Hopen Family</h1>
                             <h2><%= t "pages.home.header.description_1" %><br>
                               <%= t "pages.home.header.description_2" %></h2>
-                              <br>
-                            <a href="#download" class="btn btn-outline btn-xl page-scroll"><%= t "pages.home.header.button"%></a>
                         </div>
                     </div>
                 </div>
@@ -39,10 +49,10 @@
                 </div>
             </div>
         </div>
-    </header>
+      </header>
 
 
-    <section id="features" class="features">
+    <!-- <section id="features" class="features">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -50,72 +60,45 @@
                         <h2><%= t "features.title" %></h2>
                         <p class="text-muted"><%= t "features.title_under_1"%><br><%= t "features.title_under_2"%></p>
                         <hr>
-
                     </div>
                 </div>
             </div>
           </div>
-
-              <div class='principal'>
-                <div class="element">
-                  <!--<h3><%= t "features.title_1"%></h3>
-                  <p class="text-muted"><%= t "features.description_1"%></p>-->
-                  <div class="screen">
-                    <% if I18n.locale == :fr %>
-                    <%= image_tag "papy.png"%>
-                    <% end %>
-                    <% if I18n.locale == :en %>
-                    <%= image_tag "mamy.png"%>
-                    <% end %>
-                  </div>
-                </div>
-
-                <div class="element">
-                  <!-- <h3><%= t "features.title_2"%></h3>
-                  <p class="text-muted"><%= t "features.description_2"%></p>-->
-                  <div class="screen">
-                    <% if I18n.locale == :fr %>
-                    <%= image_tag "papa.png"%>
-                    <% end %>
-                    <% if I18n.locale == :en %>
-                    <%= image_tag "dad.png"%>
-                    <% end %>
-                  </div>
-                </div>
-
-                <div class="element">
-                  <!--<h3><%= t "features.title_3"%></h3>
-                  <p class="text-muted"><%= t "features.description_3"%></p>-->
-                  <div class="screen">
-                    <% if I18n.locale == :fr %>
-                    <%= image_tag "jeunes.png"%>
-                    <% end %>
-                    <% if I18n.locale == :en %>
-                    <%= image_tag "kids.png"%>
-                    <% end %>
-                </div>
+          <div class='principal'>
+            <div class="element">
+              <div class="screen">
+                <% if I18n.locale == :fr %>
+                <%= image_tag "papy.png"%>
+                <% end %>
+                <% if I18n.locale == :en %>
+                <%= image_tag "mamy.png"%>
+                <% end %>
+              </div>
             </div>
-          </div>
-    </section>
 
-    <section id="download" class="download bg-primary text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading"><%= t "download.title1"%></h2>
-                    <p><%= t "download.title_under1"%>
-                      <br><%= t "download.title_under2"%>
-                    </p>
-                    <hr>
-                    <%= link_to (image_tag "cup.png"),new_user_session_path, class: "img_cup" %>
-                    <br>
-                    <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-outline btn-xl"%>
-                </div>
+            <div class="element">
+              <div class="screen">
+                <% if I18n.locale == :fr %>
+                <%= image_tag "papa.png"%>
+                <% end %>
+                <% if I18n.locale == :en %>
+                <%= image_tag "dad.png"%>
+                <% end %>
+              </div>
+            </div>
+
+            <div class="element">
+              <div class="screen">
+                <% if I18n.locale == :fr %>
+                <%= image_tag "jeunes.png"%>
+                <% end %>
+                <% if I18n.locale == :en %>
+                <%= image_tag "kids.png"%>
+                <% end %>
             </div>
         </div>
-    </section>
-
-
+      </div>
+    </section> -->
 
     <section id="hopen_box">
       <h2 class="title_hopen"><%= t"hopen_box.title" %></h2>
@@ -156,6 +139,52 @@
     </div>
     </section>
 
+    <section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading"><%= t "download.title1"%></h2>
+                    <p><%= t "download.title_under1"%>
+                      <br><%= t "download.title_under2"%>
+                    </p>
+                    <hr>
+                    <%= link_to (image_tag "cup.png"),new_user_session_path, class: "img_cup" %>
+                    <br>
+                    <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-outline btn-xl"%>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading"><%= t "partner.title"%></h2>
+                    <hr>
+                    <%= image_tag "logo_aec.png", class: "img_cup" %>
+                    <%= image_tag "logo.png", class: "img_cup" %>
+                    <%= image_tag "Philips-shield.png", class: "img_cup" %>
+                    <%= image_tag "logo-ENSC.png", class: "img_cup" %>
+                    <%= image_tag "aquitaine.png", class: "img_cup" %>
+                    <%= image_tag "chubordeaux.png", class: "img_cup" %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="follow" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading"><%= t "follow.title" %></h2>
+                    <hr>
+                </div>
+                <div class="fb-like" data-href="https://www.facebook.com/hopenfamily/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+        </div>
+    </section>
+
     <section class="section_contact" id="contact" class="contact bg-primary">
         <div class="container">
           <div class="principal_contact">
@@ -166,7 +195,7 @@
             <hr>
             <div class="friends">
               <!--80X80-->
-              <h2 class="text_friends_title"><%= t "contact.love1"%><span class="icon-coeur_full4"></span> <%= t "contact.love2"%></h2>
+              <h2 class="text_friends_title"><%= t "contact.love1"%><span class="icon-coeur_full4"></span><%= t "contact.love2"%></h2>
               <ul class="list-inline list-social">
                   <li>
                     <!--80X80-->
@@ -179,7 +208,6 @@
                     <a href="https://www.linkedin.com/company/10961199?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A10961199%2Cidx%3A2-1-2%2CtarId%3A1477407439534%2Ctas%3Ahopen%20family"><%= image_tag "linkedin.png", class:"fa fa-twitter" %></a>
                   </li>
               </ul>
-              <div class="fb-like" data-href="https://www.facebook.com/hopenfamily/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
             </div>
           </div>
         </div>

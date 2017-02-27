@@ -220,8 +220,20 @@ www.hopenproject.com "
     element2: "Partagez-la sur notre page Facebook
     Hopen Family à cette adresse : "
     element3: "Récoltez le maximum de J'adore et gagnez votre Hopen"
-    dead_line: "DATE DE FIN : 30 JANVIER 2017"
+    dead_line: "DATE DE FIN : 20 MARS 2017"
     footer_title: "CADEAU : DECOUVREZ L'HOPEN"
     p: "Faites partie des privilégiés, branchez votre Hopen à tout type de supports et vos grands-parents
       recevrons instantanément vos photos via l'Application Hopen Family."
 ##########################################
+  partner:
+    title: "Nos Partenaires"
+    title_under: "Avant de lancer Hopen Family, jouez avec nous
+      et gagnez votre Hopen."
+##########################################
+  follow:
+    title: "Nous suivre :)"
+    title_under: "Avant de lancer Hopen Family, jouez avec nous
+      et gagnez votre Hopen."
+##########################################
+  home:
+    title_under: "L'Objet connecté pour nos grands-parents"

@@ -208,8 +208,20 @@ www.hopenproject.com"
     element2: "Share it on our Official Facebook
     Hopen Family webpage : "
     element3: "Get the maximum of Love to win your first Hopen"
-    dead_line: "DEADLINE : 30th of JANUARY 2017"
+    dead_line: "DEADLINE : 20th of MARCH 2017"
     footer_title: "YOUR AWARD : HOPEN"
     p: "Be unique, plug your Hopen to any device and your grandparents
       will instantly receive pictures of you and your relatives via the Hopen Family App."
 ##########################################
+  partner:
+    title: "Our Partners"
+    title_under: "Avant de lancer Hopen Family, jouez avec nous
+      et gagnez votre Hopen."
+##########################################
+  follow:
+    title: "Follow Us :)"
+    title_under: "Avant de lancer Hopen Family, jouez avec nous
+      et gagnez votre Hopen."
+##########################################
+  home:
+    title_under: "Our grandparents smart object"
