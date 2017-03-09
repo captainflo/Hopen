@@ -5,6 +5,12 @@
     <h1>Hopen Family</h1>
     <hr class="text-center">
     <h2><%= t "home.title_under" %></h2>
+    <% if I18n.locale == :fr %>
+      <%= link_to image_tag("concours.png", border: 0),new_user_session_path%><br>
+    <% end %>
+    <% if I18n.locale == :en %>
+      <%= link_to image_tag("contest.png", border: 0),new_user_session_path%><br>
+    <% end %>
     <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-lg btn-danger"%>
   </div>
 </div>
