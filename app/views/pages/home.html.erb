@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="section-heading"><%= t "download.title1"%></h2>
-                    <p><%= t "download.title_under1"%>
+                    <p><%= t "download.title_under1"%><br><%= t "download.title_under3"%>
                       <br><%= t "download.title_under2"%>
                     </p>
                     <hr>
@@ -154,6 +154,51 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="partner-play" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11 col-md-offset-1 text-center">
+                    <h2 class="section-heading"><%= t("play.title") %></h2>
+                    <hr>
+                    <%= image_tag "hopenfamily-Tesla-Motors.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-akrone.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-arbor.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-CapSciences copie.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-commons_origins_logo.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-etiquettetasdejavu - copie.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-fermer.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-lappuntamunto.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-letaquin.jpeg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-vins.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-mistigri.jpg", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-mrt-shirt.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-toot.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-every.png", class: "img_cup2" %>
+                    <%= image_tag "alloresto.png", class: "img_cup2" %>
+                    <%= image_tag "hopenfamily-frenchpoupon.jpg", class: "img_cup2" %>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="press" class="text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <h2 class="section-heading"><%= t "press.title"%></h2>
+                  <p><%= t "press.title_under"%><br><%= t "press.title_under1"%></p>
+                  <hr>
+                  <%= image_tag "rtl2.png", class: "img_cup" %>
+                  <% if I18n.locale == :fr %>
+                    <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/fr/presse", target="_blank"><%= t('press.btn')%></a></p>
+                  <% end %>
+                  <% if I18n.locale == :en %>
+                    <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/press/", target="_blank"><%= t('press.btn')%></a></p>
+                  <% end %>
+              </div>
+          </div>
+      </div>
     </section>
 
     <section id="partner" class="text-center">
@@ -199,13 +244,13 @@
               <ul class="list-inline list-social">
                   <li>
                     <!--80X80-->
-                    <a href="http://www.facebook.com/hopenfamily"><%=image_tag "face.png", class:"fa fa-twitter" %></a>
+                    <a href="http://www.facebook.com/hopenfamily", target="_blank"><%=image_tag "face.png", class:"fa fa-twitter" %></a>
                   </li>
                   <li>
-                    <a href="http://www.twitter.com/hopenfamily"><%= image_tag "twitter.png", class:"fa fa-twitter" %></a>
+                    <a href="http://www.twitter.com/hopenfamily", target="_blank"><%= image_tag "twitter.png", class:"fa fa-twitter" %></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/10961199?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A10961199%2Cidx%3A2-1-2%2CtarId%3A1477407439534%2Ctas%3Ahopen%20family"><%= image_tag "linkedin.png", class:"fa fa-twitter" %></a>
+                    <a href="https://www.linkedin.com/company-beta/16177025", target="_blank" ><%= image_tag "linkedin.png", class:"fa fa-twitter" %></a>
                   </li>
               </ul>
             </div>

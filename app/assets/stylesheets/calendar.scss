@@ -1,0 +1,258 @@
+.btn-calendar{
+	margin: 10px;
+}
+
+.square{
+	border: 5px solid #2DAF94;
+	background: #2DAF94;
+	color: #fff;
+	border-radius: 5px;
+	max-width: 550px;
+	height: 300px;
+	padding: 45px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+
+	h4{
+		line-height: 1.7;
+	}
+}
+
+.square1{
+	border: 5px solid #2DAF94;
+	background: #2DAF94;
+	color: #fff;
+	border-radius: 5px;
+	width: 300px;
+	height: auto;
+	padding: 45px;
+	margin: 10px;
+	margin-bottom: 40px;
+
+	h4{
+		line-height: 1.7;
+	}
+}
+
+.circle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 12px;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background:#292654;
+
+	h2{
+		display: block;
+		margin-top: 10px;
+	}
+}
+
+.text_calendar{
+	color: #2DAF94;
+}
+
+.background-wrapper{
+
+	width: 100%;
+	height: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.btn-down{
+	padding-bottom: 60px;
+}
+
+.img-calendar{
+	display: block;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@keyframes shake {
+	0% 		{ transform: rotate(0deg); }
+	20% 	{ transform: rotate(-20deg); }
+	40% 	{ transform: rotate(20deg); }
+	60% 	{ transform: rotate(-10deg); }
+	80% 	{ transform: rotate(10deg); }
+	100% 	{ transform: rotate(0deg); }
+}
+.block{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 40px;
+main {
+	text-align: center;
+	padding: 1em;
+}
+
+.box,
+.present {
+	width: 100%;
+	height: 100%;
+}
+
+article {
+	display: inline-block;
+	width: 9em;
+	height: 9em;
+	margin: 0.5em;
+	perspective: 850px;
+}
+
+.box {
+	position: relative;
+	background: linear-gradient(135deg, lighten(#2DAF94, 7%) 50%, #2DAF94 50%);
+	transform-style: preserve-3d;
+	transform-origin: 0;
+	perspective: 850px;
+	text-align: center;
+	box-shadow: 0 0 40px 0 rgba(black, 0.15);
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+
+	h2 {
+		position: absolute;
+		width: 3em;
+		height: 3em;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+		padding: 0.5em;
+		font-size: 0.85em;
+		line-height: 3em;
+		color: white;
+		background: #292654;
+		border-radius: 50%;
+		box-shadow: inset 0 0 10px 5px rgba(black, 0.15);
+	}
+}
+
+article:hover {
+	.box {
+		background: linear-gradient(135deg, lighten(#2DAF94, 20%) 50%, lighten(#2DAF94, 15%) 50%);
+		transform: rotateY(-97deg);
+		perspective-origin: 0;
+		transition: all .4s ease-in;
+
+		h2 {
+			backface-visibility: hidden; // hide date
+		}
+	}
+
+	.bauble {
+		display: inline-block;
+		animation: shake 1s;
+		transform-origin: 50% 0;
+	}
+}
+
+.present {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: -1;
+}
+.icon-coeur_full3{
+  position: relative;
+}
+.bauble {
+	position: relative;
+	width: 2.75em;
+	height: 2.75em;
+	background: #fff;
+	margin: 25% auto 0 auto;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 2.75em;
+	color: white;
+	border-radius: 50%;
+
+	// rectangle that has pin
+	&:after {
+		content: "";
+		position: absolute;
+		top: -5%;
+		left: 50%;
+		margin-left: -15%;
+		width: 30%;
+		height: 10%;
+		background: inherit;
+	}
+
+	// pin
+	&:before {
+		content: "";
+		width: 12%;
+		height: 20%;
+		position: absolute;
+		top: -15%;
+		left: 50%;
+		margin-left: -12%;
+		border-radius: 50%;
+		border: 0.35rem solid #fff;
+		z-index: 0;
+	}
+}
+
+.box-gold {
+	position: relative;
+	background: linear-gradient(135deg, lighten(#F7971E, 7%) 50%, #F7971E 50%);
+	transform-style: preserve-3d;
+	transform-origin: 0;
+	perspective: 850px;
+	text-align: center;
+	box-shadow: 0 0 40px 0 rgba(black, 0.15);
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+
+	h2 {
+		position: absolute;
+		width: 3em;
+		height: 3em;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+		padding: 0.5em;
+		font-size: 0.85em;
+		line-height: 3em;
+		color: white;
+		background: #2DAF94;
+		border-radius: 50%;
+		box-shadow: inset 0 0 10px 5px rgba(black, 0.15);
+	}
+}
+
+article:hover {
+	.box-gold {
+		background: linear-gradient(135deg, lighten(#F7971E, 20%) 50%, lighten(#F7971E, 15%) 50%);
+		transform: rotateY(-97deg);
+		perspective-origin: 0;
+		transition: all .4s ease-in;
+
+		h2 {
+			backface-visibility: hidden; // hide date
+		}
+	}
+
+	.bauble {
+		display: inline-block;
+		animation: shake 1s;
+		transform-origin: 50% 0;
+	}
+}
+
+}

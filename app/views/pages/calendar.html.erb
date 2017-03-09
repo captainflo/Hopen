@@ -1,0 +1,1210 @@
+
+
+<%= render partial: 'layouts/navbar' %>
+<h1 class="title_contest"><%= t('calendar.title') %></h1>
+<br>
+<%= image_tag"hopenfamily-founder.jpg",class:"img-calendar"%>
+<h3 class='text-center text_calendar'><%= t('calendar.title_under')%></h3>
+<div class="container">
+  <h2 class="text-center"><%= t('calendar.why')%><br><%= t('calendar.why2')%></h2>
+  <div class="col-xs-12 col-md-12 text-center btn-calendar">
+    <a class='btn btn-danger' href="#calendar"><%= t('calendar.play')%></a>
+  </div>
+  <div class='row'>
+    <div class="col-xs-12 col-md-6 text-center square">
+      <h1><%= t('calendar.title1')%></h1>
+      <% if I18n.locale == :fr %>
+        <h4><%= t('calendar.title_under1')%> <a href="https://www.mynewstartup.com/crowdfunding-financement-participatif" target="_blank">(crowdfunding)</a> <%= t('calendar.title_under11')%></h4>
+      <% end %>
+      <% if I18n.locale == :en %>
+        <h4><%= t('calendar.title_under1')%> <a href="https://www.fundable.com/learn/resources/guides/crowdfunding-guide/what-is-crowdfunding" target="_blank">(crowdfunding)</a> <%= t('calendar.title_under11')%></h4>
+      <% end %>
+    </div>
+    
+    <div class="col-xs-12 col-md-6 text-center square">
+      <h1><%= t('calendar.title2')%></h1>
+      <h4><%= t('calendar.title_under2')%></h4>
+    </div>
+  </div>
+
+<div class="col-xs-12 col-md-12 text-center square1">
+    <h1><%= t('calendar.title3')%></h1>
+    <h4><%= t('calendar.title_under3')%> <a href="https://www.facebook.com/hopenfamily/?fref=ts" target="_blank">Facebook !</a></h4>
+</div>
+<div class="col-xs-12 col-md-12 text-center square1">
+    <h1><%= t('calendar.title4')%></h1>
+    <h4><%= t('calendar.title_under4')%></h4>
+    <h4><%= t('calendar.title_under41')%></h4>
+    <h4><%= t('calendar.title_under42')%></h4>
+</div>
+</div>
+<div id="calendar"  class="background-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 text-center">
+        <h2 class="circle">1</h2>
+        <h2><%= t('calendar.text1')%></h2>
+      </div>
+      <div class="col-xs-12 col-md-4 text-center">
+        <h2 class="circle">2</h2>
+        <h2><%= t('calendar.text2')%></h2>
+      </div>
+      <div class="col-xs-12 col-md-4 text-center">
+        <h2 class="circle">3</h2>
+        <h2><%= t('calendar.text3')%></h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block text-center">
+  <main>
+  	<article>
+  		<div class="box">
+  			<h2>18 <%= t('calendar.mars')%></h2>
+  		</div>
+  		<div class="present">
+  			<div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg1"></span></div>
+  		</div>
+  	</article>
+    <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-18.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-18en.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>19 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg2"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-19.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-19en.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>20 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg3"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-20.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-20en.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>21 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg4"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-happy.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-happyen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>22 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg5"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>23 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg6"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>24 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg7"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+
+    <article>
+      <div class="box box-gold">
+        <h2>25 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg8"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>26 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg9"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>27 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg10"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg10" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>28 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg11"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg11" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>29 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg12"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg12" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>30 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg13"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg13" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>31 <%= t('calendar.mars')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg14"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg14" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>01 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg15"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg15" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>02 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg16"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg16" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>03 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg17"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg17" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>04 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg18"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg18" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>05 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg19"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg19" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>06 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg20"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg20" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>07 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg21"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg21" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>08 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg22"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg22" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>09 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg23"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg23" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>10 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg24"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg24" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>11 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg25"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg25" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>12 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg26"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg26" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>13 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg27"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg27" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>14 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg28"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg28" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>15 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg29"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg29" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <article>
+      <div class="box">
+        <h2>16 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg30"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg30" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <article>
+      <div class="box">
+        <h2>17 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg31"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg31" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <article>
+      <div class="box box-gold">
+        <h2>18 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg32"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg32" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>19 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg33"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg33" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>20 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg34"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg34" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>21 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg35"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg35" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>22 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg36"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg36" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>23 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg37"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg37" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>24 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg38"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg38" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>25 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg39"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg39" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>26 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg40"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg40" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>27 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg41"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg41" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>28 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg42"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg42" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>29 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg43"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg43" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>30 <%= t('calendar.avril')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg44"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg44" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>01 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg45"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg45" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>02 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg46"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg46" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>03 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg47"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg47" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>04 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg48"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg48" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>05 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg49"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg49" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>06 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg50"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg50" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>07 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg51"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg51" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>08 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg52"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg52" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box">
+        <h2>09 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg53"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg53" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="box box-gold">
+        <h2>10 <%= t('calendar.mai')%></h2>
+      </div>
+      <div class="present">
+        <div class="bauble"><span type="button" class="icon-coeur_full3" data-toggle="modal" data-target=".bs-example-modal-lg54"></span></div>
+      </div>
+    </article>
+    <div class="modal fade bs-example-modal-lg54" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <% if I18n.locale == :fr %>
+            <%= link_to image_tag("hopenfamily-soon.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+          <% if I18n.locale == :en %>
+            <%= link_to image_tag("hopenfamily-soonen.png"), "https://www.facebook.com/hopenfamily/?fref=ts" ,target:"_blank"%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Large modal -->
+  <div class="btn-down">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"><%= t('calendar.title-regle')%></button>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <h1><%= t('calendar.title-regle')%></h1>
+          <p><%= t('calendar.regle')%><p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<%= render partial: 'layouts/footer' %>

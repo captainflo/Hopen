@@ -8,6 +8,8 @@ class PagesController < ApplicationController
   end
   def contest
   end
+  def calendar
+  end
   def index
     if current_user.email == "nelly@gmail.com"
       @users = User.all

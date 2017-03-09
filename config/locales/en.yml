@@ -50,9 +50,9 @@ en:
 ###################################
   download:
     title1: "Play with us!"
-    title_under1: "Before we launch Hopen Family, be part of the early adopters
-      to win your Hopen for free."
+    title_under1: "Before we launch Hopen Family, be part of our First Big Contest #HOPENBORDEAUX. Because we are proud to be from Bordeaux, we want you to discover our place and for that you will win gifts everyday."
     title_under2: "Register to know more about it."
+    title_under3: ""
     title: "Download our App"
     title_under: "Our app is available on any mobile device! Download now to get started!"
 ###################################
@@ -225,3 +225,45 @@ www.hopenproject.com"
 ##########################################
   home:
     title_under: "Our grandparents smart object"
+##########################################
+  calendar:
+    title: "OUR FIRST CONTEST #HOPENBORDEAUX"
+    title_under: "Nelly & Yoann, Co-Founders Hopen Family"
+    why: "Hello everyone and welcome to our Hopen Family world."
+    why2: "We are so happy and excited to share our entrepreneurial story with you and we invite you with great pleasure to play in the first #HOPENBORDEAUX contest we are launching on March 18, 2017."
+    title1: " Why this contest?"
+    title_under1: "Before the launch of our participative fundraising campaign"
+    title_under11: "starting on May 10th, we invite you to participate into our first #HOPENBORDEAUX contest in where you will discover our universe."
+    title2: "A little more about us ..."
+    title_under2: "Here we are, Nelly, Yoann and Pierre, all three born in Bordeaux and sharing the same values. We worked hardly around a huge social issue : fighting against the elderly loneliness."
+    title3: "What are we doing ?"
+    title_under3: "We develop a smart object, called HOPEN that will allow you to share all your news to Grandpa and Granny with ease. Keep following our adventure during our crowdfunding of May 10th. Meanwhile, follow us on"
+    title4: "And so ?"
+    title_under4: "The principle is simple: you know the advent calendars? Same story
+Every day, discover a mission, accomplish it and win many gifts.
+For this, we have appealed to our whole ecosystem which has been super reactive and hyper seduced by Hopen Family:"
+    title_under41: "Tesla, Femer, Toot, Monsieur T-shirt, Allo Resto, Akrone, Arbor and sens, Château Lamothe Castera, L'appuntamento, Cap Sciences, Salinières Theater, RTL2..."
+    title_under42: "We infinitely thank them for their involvement, because the most important thing is : LoveYourFamily. And they share it with us."
+    text1: "Click on the gift box of the day"
+    text2: "Discover the contest of the day"
+    text3: "Play !"
+    text4: "It's not because Christmas is over that there are no more gifts !!"
+    mars: "March"
+    avril: "April"
+    mai: "May"
+    play: "Click here to play"
+    title-regle: "Contest Rules"
+    regle: "The User is free to participate in the first contest #HOPENBORDEAUX. Hopen Project offers to its Users the opportunity to participate in a contest to launch the Hopen Family Project. Once logged on www.hopen.family, Users have access to the contest. Each day, a new contest will be shared, announcing to the User a new mission. He will have to reach our Facebook page www.facebook.com/hopenfamily and will be able to comment and fulfil his missions proposed by Hopen Project in order to be drawn.
+This contest does not constitute an employment contract and does not involve any remuneration from Hopen Project.
+The prizes won are completely free and will be sent by the Hopen Project team.
+By participating in this contest, Users give permission to Hopen Project to freely use the photos published on the Facebook page Hopen Family. The constest starts on March 1, 2017 and ends on May 10, 2017. The User is free, informed and volunteers on his own initiative. No obligation to participate in this contest. The terms, rules and results of the contest will be organized by Hopen Project, which will inform the Winners on its Facebook page www.facebook.com/hopenfamily
+Legal information Hopen Project S.A.S. Capital 10 000 Euros SIRET 81193945300015 www.hopenproject.com"
+##########################################
+  play:
+    title: "Our Contest Partners"
+#########################################
+  press:
+    title: "Our Press Partners"
+    title_under: "They follow us, relay and talk about us."
+    title_under1: "Discover our press releases and articles in our press area."
+    btn: "Press Area"

@@ -1,0 +1,24 @@
+<footer>
+    <div class="container">
+        <ul class="list-inline">
+            <li>
+                <%= link_to t("footer.privacy"), pages_mention_path, class: "link_back" %>
+            </li>
+            <li>
+                <%= mail_to "nelly@hopenproject.com", class:"link_back" do %>
+                <%=t"footer.contact", class:"back_link"%>
+                <% end %>
+                <%= link_to "Team", pages_team_path, class: "link_back" %>
+            </li>
+        </ul>
+        <p>&copy; <%= t "footer.copy" %></p>
+    </div>
+</footer>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=259735514468714";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
