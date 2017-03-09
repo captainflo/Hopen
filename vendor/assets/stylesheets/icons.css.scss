@@ -45,13 +45,20 @@
   font-size: 70px;
   color: #2daf94;
 }
+
 .icon-coeur_full4:before {
   content: "\e900";
   font-size: 70px;
   color: #fff;
 }
 
-
+.icon-coeur_full5:before {
+  content: "\e900";
+  font-size: 70px;
+  color: #2daf94;
+  position: relative;
+  cursor: pointer;
+}
 
 .icon-coeur_contour:before {
   content: "\1f326";
