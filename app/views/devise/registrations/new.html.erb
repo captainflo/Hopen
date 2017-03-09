@@ -3,6 +3,7 @@
   <%= link_to (image_tag"off2.png"), root_path, class: "back_log" %>
   <span class="icon-coeur_full1"></span>
   <h2 class="title_log"><%=t'sign_up.title'%></h2>
+  <%= link_to image_tag("fb.png",class:"fb-block"), user_facebook_omniauth_authorize_path %>
   <!--Echo out errors here. See example-->
   <!--<p class=error>Error, wrong username or password used. Please, try again.-->
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -48,7 +49,6 @@
       <%= f.submit t('sign_up.title'), class:"log" %>
       <div class='log2'><%= t"sign_up.log1"%> <%= link_to t('link.sign_in'), new_session_path(resource_name), class: "link_log" %></div>
       <% end %>
-      <%= link_to image_tag("fb.png"), user_facebook_omniauth_authorize_path %>
       </div>
 </div>
   <div class="bg-boxes">
