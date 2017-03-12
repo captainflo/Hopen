@@ -12,6 +12,10 @@
       <%= link_to image_tag("contest.png", border: 0),new_user_session_path%><br>
     <% end %>
     <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-lg btn-danger"%>
+    <section id="section03" class="demo">
+      <p><%= t "home.scroll" %></p>
+	    <a href="#concept"><span></span></a>
+    </section>
   </div>
 </div>
     <header id="concept">
@@ -167,21 +171,20 @@
                 <div class="col-md-12 text-center">
                     <h2 class="section-heading"><%= t("play.title") %></h2>
                     <hr>
-                    <%= image_tag "hopenfamily-Tesla-Motors.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-akrone.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-arbor.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-CapSciences copie.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-commons_origins_logo.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-etiquettetasdejavu - copie.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-fermer.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-lappuntamunto.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-letaquin.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-vins.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-mistigri.jpg", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-mrt-shirt.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-toot.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-every.png", class: "img_cup2" %>
-                    <%= image_tag "hopenfamily-frenchpoupon.jpg", class: "img_cup2" %>
+                    <%= link_to (image_tag "hopenfamily-Tesla-Motors.png"), "https://www.tesla.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-fermer.jpg"), "http://femer.fr/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-akrone.jpg"), "https://www.akrone.fr/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-CapSciences copie.jpg"), "https://www.cap-sciences.net",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-commons_origins_logo.jpg"), "https://www.theatre-des-salinieres.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-etiquettetasdejavu - copie.jpg"), "https://http://tasdejavu.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-lappuntamunto.png"), "https://www.facebook.com/Lappuntamento-foodtruck-italian-trattoria-534561063298013/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-letaquin.jpg"), "http://letaquin.com/le-taquin/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-vins.png"), "http://www.chateaulamothecastera.fr/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-mistigri.jpg"), "https://www.facebook.com/Mistigri-216946742073824/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-mrt-shirt.png"), "http://monsieurtshirt.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-toot.png"), "https://toot-lunettes.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-every.png"), "http://www.everyonespeaks.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-frenchpoupon.jpg"), "https://frenchpoupon.fr/",target:"_blank" %>
                 </div>
             </div>
         </div>
@@ -190,17 +193,20 @@
     <section id="press" class="text-center">
       <div class="container">
           <div class="row">
-              <div class="col-md-8 col-md-offset-2">
+              <div class="col-md-12">
                   <h2 class="section-heading"><%= t "press.title"%></h2>
                   <p><%= t "press.title_under"%><br><%= t "press.title_under1"%></p>
                   <hr>
-                  <%= image_tag "rtl2.png", class: "img_cup" %>
                   <% if I18n.locale == :fr %>
-                    <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/fr/presse", target="_blank"><%= t('press.btn')%></a></p>
+                  <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/fr/presse",target:"_blank", class:"img_cup" %>
+                    <!-- <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/fr/presse", target="_blank"><%= t('press.btn')%></a></p> -->
                   <% end %>
                   <% if I18n.locale == :en %>
-                    <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/press/", target="_blank"><%= t('press.btn')%></a></p>
+                    <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/press/",target:"_blank" %>
                   <% end %>
+                  <%= link_to (image_tag "silvermag.png"), "http://silvermag.fr/gardez-contact-vos-proches-images-hopen-family/",target:"_blank" %>
+                  <%= link_to (image_tag "silver.png"), "http://www.silverautonomie.com/index.php/actualites/169-l-ecosysteme-bordelais-de-la-silver-economie",target:"_blank" %>
+                  <%= link_to (image_tag "web.png"), "https://www.youtube.com/watch?v=CcklTSyT4zg",target:"_blank" %>
               </div>
           </div>
       </div>
@@ -218,6 +224,8 @@
                     <%= image_tag "logo-ENSC.png", class: "img_cup" %>
                     <%= image_tag "aquitaine.png", class: "img_cup" %>
                     <%= image_tag "chubordeaux.png", class: "img_cup" %>
+                    <%= link_to (image_tag "frenchtech.png"), "http://lespepitestech.com/startup-de-la-french-tech/hopen-family",target:"_blank" %>
+                    <%= link_to (image_tag "osez.png"),"http://osezbordeaux.fr/",target:"_blank" %>
                 </div>
             </div>
         </div>

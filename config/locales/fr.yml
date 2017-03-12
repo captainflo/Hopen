@@ -238,6 +238,7 @@ www.hopenproject.com "
 ##########################################
   home:
     title_under: "L'Objet connecté pour nos grands-parents"
+    scroll: "Découvrez notre concept"
 ##########################################
   calendar:
     title: "NOTRE PREMIER CONCOURS #HOPENBORDEAUX"
@@ -254,10 +255,12 @@ www.hopenproject.com "
     title4: "Et donc ?"
     title_under4: "Le principe est simple : vous connaissez les calendriers de l’avent ? C’est pareil.
 Chaque jour, découvrez une mission à accomplir pour gagner plein de cadeaux.
-Pour cela, nous avons fait appel à tout notre écosystème qui a été super réactif et hyper séduit par Hopen Family :"
+Pour cela, nous avons fait appel à notre écosystème qui a été super réactif et hyper séduit par Hopen Family."
     title_under41: "Tesla, Femer, Toot, Monsieur T-shirt, Akrone, Arbor et sens, Château Lamothe Castera, L’appuntamento, Cap Sciences, Théâtre des Salinières, Le Taquin, Everyone speaks, T’as déjà vu…,Mistigri."
-    title_under42: "Nous les remercions infiniment de leur implication, car le plus important, c’est la famille. Et ils le partagent avec nous."
-    text1: "Ouvrez la boîte cadeau et cliquez sur le coeur"
+    title_under42: "Nous les remercions infiniment de leur implication, car le plus important, c’est la famille."
+    text1: "Ouvrez la"
+    text11: "boîte cadeau du jour"
+    text12: "et cliquez sur le coeur"
     text2: "Découvrez le concours du jour"
     text3: "A vous de jouer et bonne chance!"
     text4: "Ce n'est pas parce que la fête des grands-mères est finie qu'il n'y a plus de cadeaux !!"
@@ -265,7 +268,7 @@ Pour cela, nous avons fait appel à tout notre écosystème qui a été super r�
     avril: "Avril"
     mai: "Mai"
     play: "Cliquez ici pour jouer"
-    title-regle: "Régles du Conco urs"
+    title-regle: "Régles du Concours"
     regle: "L’Utilisateur est libre de participer au premier concours #HOPENBORDEAUX. L’entreprise Hopen Project propose aux Utilisateurs de participer à un concours dans le cadre du lancement du projet Hopen Family. Une fois connecté sur le site www.hopen.family, les utilisateurs ont accès au concours. Chaque jour, une règle du jeux sera partagée, annonçant la mission proposée à l’Utilisateur. Celui-ci devra se rendre sur la page Facebook www.facebook.com/hopenfamily et pourra commenter les publications en suivant les missions proposées par Hopen Project afin d‘être tiré au sort.
 Ce concours ne constitue en aucun cas un contrat de travail et n’entraîne aucune rémunération de la part d’Hopen Project.
 Les lots gagnés sont entièrement gratuits et seront envoyés par l’équipe Hopen Project.
