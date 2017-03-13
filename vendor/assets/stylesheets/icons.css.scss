@@ -60,6 +60,14 @@
   cursor: pointer;
 }
 
+.icon-coeur_full6:before {
+  content: "\e900";
+  font-size: 70px;
+  color: #F7971E;
+  position: relative;
+  cursor: pointer;
+}
+
 .icon-coeur_contour:before {
   content: "\1f326";
   color: #fff;
