@@ -13,11 +13,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <% if user_signed_in? %>
-                  <!-- <%= link_to edit_user_registration_path do %>
-                    <% avatar_url = current_user.facebook_picture_url || current_user.photo %>
-                    <%= image_tag current_user.avatar.url(:medium), class: " page-scroll img_avatar" %>
-                  <% end %> -->
-
+                    <%= image_tag current_user.facebook_picture_url || current_user.avatar || current_user.photo, class:" page-scroll img_avatar" %>
                   <% if I18n.locale == :fr %>
                     <li>
                       <a class="page-scroll" href="http://hopenproject.com/fr/actualites/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
@@ -43,7 +39,6 @@
                   <% if current_user.email == "nelly@gmail.com" %>
                     <li><%= link_to 'Database', users_path %> </li>
                   <% end %>
-
                 <% else %>
                   <li>
                     <a class="page-scroll" href="#concept"><%= t "pages.home.header.navbar.feature" %></a>

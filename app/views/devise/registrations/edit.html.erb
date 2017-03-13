@@ -1,7 +1,7 @@
 <div class="body_edit">
     <div class="edit_avatar_img">
       <%= link_to (image_tag"off2.png"), root_path, class: "back" %>
-      <%= image_tag(resource.avatar,class:"avatar")if resource.avatar? %>
+      <%= image_tag current_user.facebook_picture_url || current_user.avatar || current_user.photo,class:"avatar"%>
         <div class="name">
           <%= @user.firstname %> <%= @user.lastname %>
           <h2 class="title_log"><%= t "edit.title"%></h2>
