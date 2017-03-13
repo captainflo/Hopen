@@ -198,16 +198,16 @@
                   <p><%= t "press.title_under"%><br><%= t "press.title_under1"%></p>
                   <hr>
                   <% if I18n.locale == :fr %>
-                  <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/fr/presse",target:"_blank", class:"img_cup" %>
-                    <!-- <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/fr/presse", target="_blank"><%= t('press.btn')%></a></p> -->
+                    <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/fr/presse",target:"_blank", class:"img_cup" %>
                   <% end %>
                   <% if I18n.locale == :en %>
                     <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/press/",target:"_blank" %>
                   <% end %>
-                  <%= link_to (image_tag "silvermag.png"), "http://silvermag.fr/gardez-contact-vos-proches-images-hopen-family/",target:"_blank" %>
-                  <%= link_to (image_tag "silver.png"), "http://www.silverautonomie.com/index.php/actualites/169-l-ecosysteme-bordelais-de-la-silver-economie",target:"_blank" %>
-                  <%= link_to (image_tag "web.png"), "https://www.youtube.com/watch?v=CcklTSyT4zg",target:"_blank" %>
+                    <%= link_to (image_tag "silvermag.png"), "http://silvermag.fr/gardez-contact-vos-proches-images-hopen-family/",target:"_blank" %>
+                    <%= link_to (image_tag "silver.png"), "http://www.silverautonomie.com/index.php/actualites/169-l-ecosysteme-bordelais-de-la-silver-economie",target:"_blank" %>
+                    <%= link_to (image_tag "web.png"), "https://www.youtube.com/watch?v=CcklTSyT4zg",target:"_blank" %>
               </div>
+              <p><a class='btn btn-danger btn-press' href=" http://hopenproject.com/fr/presse", target="_blank"><%= t('press.btn')%></a></p>
           </div>
       </div>
     </section>
@@ -218,12 +218,12 @@
                 <div class="col-md-12">
                     <h2 class="section-heading"><%= t "partner.title"%></h2>
                     <hr>
-                    <%= image_tag "logo_aec.png", class: "img_cup" %>
-                    <%= image_tag "logo.png", class: "img_cup" %>
-                    <%= image_tag "Philips-shield.png", class: "img_cup" %>
-                    <%= image_tag "logo-ENSC.png", class: "img_cup" %>
-                    <%= image_tag "aquitaine.png", class: "img_cup" %>
-                    <%= image_tag "chubordeaux.png", class: "img_cup" %>
+                    <%= link_to (image_tag "logo_aec.png"), "http://www.aecom.org/",target:"_blank" %>
+                    <%= link_to (image_tag "logo.png"), "http://www.catie.fr/",target:"_blank" %>
+                    <%= link_to (image_tag "Philips_Shape.png"), "http://www.philips.fr/p-m-pr/signage-solutions",target:"_blank" %>
+                    <%= link_to (image_tag "logo-ENSC.png"), "https://ensc.bordeaux-inp.fr/fr",target:"_blank" %>
+                    <%= link_to (image_tag "nouvelle-aquitaine.png"), "https://www.nouvelle-aquitaine.fr/",target:"_blank" %>
+                    <%= link_to (image_tag "chubordeaux.png"), "https://www.chu-bordeaux.fr/",target:"_blank" %>
                     <%= link_to (image_tag "frenchtech.png"), "http://lespepitestech.com/startup-de-la-french-tech/hopen-family",target:"_blank" %>
                     <%= link_to (image_tag "osez.png"),"http://osezbordeaux.fr/",target:"_blank" %>
                 </div>
