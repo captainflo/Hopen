@@ -23,6 +23,7 @@
 }
 
 .banner-home h1 {
+  padding: 25px;
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
@@ -44,6 +45,9 @@
 
 .banner-home p {
   margin-left: 40px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  top: 0%;
   font-size: 30px;
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);

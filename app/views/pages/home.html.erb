@@ -2,6 +2,7 @@
 <%= render partial: 'layouts/navbar' %>
 <div id="home" class="banner-home " style="background-image: url('<%= image_path 'hopenfamily.png' %>');">
   <div class="banner-content">
+    <br><br>
     <h1>Hopen Family</h1>
     <hr class="text-center">
     <h2><%= t "home.title_under" %></h2>
@@ -13,8 +14,8 @@
     <% end %>
     <%= link_to t("pages.home.header.button"),new_user_session_path, class:"btn btn-lg btn-danger"%>
     <section id="section03" class="demo">
-      <p><%= t "home.scroll" %></p>
 	    <a href="#concept"><span></span></a>
+      <p><%= t "home.scroll" %></p>
     </section>
   </div>
 </div>
@@ -174,9 +175,9 @@
                     <%= link_to (image_tag "hopenfamily-Tesla-Motors.png"), "https://www.tesla.com/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-fermer.jpg"), "http://femer.fr/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-akrone.jpg"), "https://www.akrone.fr/",target:"_blank" %>
-                    <%= link_to (image_tag "hopenfamily-CapSciences copie.jpg"), "https://www.cap-sciences.net",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-CapSciences copie.jpg"), "http://www.cap-sciences.net/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-commons_origins_logo.jpg"), "https://www.theatre-des-salinieres.com/",target:"_blank" %>
-                    <%= link_to (image_tag "hopenfamily-etiquettetasdejavu - copie.jpg"), "https://http://tasdejavu.com/",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-etiquettetasdejavu - copie.jpg"), "http://tasdejavu.com/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-lappuntamunto.png"), "https://www.facebook.com/Lappuntamento-foodtruck-italian-trattoria-534561063298013/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-letaquin.jpg"), "http://letaquin.com/le-taquin/",target:"_blank" %>
                     <%= link_to (image_tag "hopenfamily-vins.png"), "http://www.chateaulamothecastera.fr/",target:"_blank" %>
