@@ -10,7 +10,12 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="kick">
-                <%= image_tag 'kickstarter.png' %>
+                <% if I18n.locale == :fr %>
+                  <%= link_to (image_tag "kickstarterfr.png"), "http://www.aecom.org/", target:"_blank" %>
+                <% end %>
+                <% if I18n.locale == :en %>
+                  <%= link_to (image_tag "kickstarter.png"), "http://www.aecom.org/",target:"_blank" %>
+                <% end %>
               </div>
             </div>
           </div>
@@ -56,7 +61,16 @@
         <div class="col-xs-12 col-md-5 product-text-mobile">
         <h3><%= t "product.title_under2" %></h3>
         <p><%= t "product.text" %></p>
-          <%= image_tag 'kickstarter.png',class:"banner-img" %>
+        <% if I18n.locale == :fr %>
+          <div class="block-product">
+            <%= link_to (image_tag "kickstarterfr.png"), "http://www.aecom.org/", target:"_blank" %>
+          </div>
+        <% end %>
+        <% if I18n.locale == :en %>
+          <div class="block-product">
+            <%= link_to (image_tag "kickstarter.png"), "http://www.aecom.org/",target:"_blank" %>
+          </div>
+        <% end %>
         </div>
         <div class="col-xs-12 col-md-7">
           <%= image_tag 'hopenfamily-product.jpg', class:"banner-img" %>
@@ -82,14 +96,14 @@
           <div class="text-center line-blank">
             <h3><%= t "carousel.title1" %></h3>
             <p><%= t "carousel.title11" %></p>
-            <%= image_tag 'hopenfamily-app.jpg',class:"banner-img2" %>
+            <%= image_tag 'hopenfamily-app.png',class:"banner-img" %>
           </div>
         </div>
         <div class="col-xs-12 col-md-4">
           <div class="text-center line-blank">
             <h3><%= t "carousel.title2" %></h3>
             <p><%= t "carousel.title22" %></p>
-          <%= image_tag 'hopenfamily-tv.png',class:"banner-img2" %>
+          <%= image_tag 'hopenfamily-tv.png',class:"banner-img" %>
           </div>
         </div>
         <div class="col-xs-12 col-md-4 ">
@@ -97,7 +111,7 @@
             <h3><%= t "carousel.title3" %></h3>
             <p><%= t "carousel.title33" %></p>
 
-          <%= image_tag 'hopenfamily-famille.png',class:"banner-img2" %>
+          <%= image_tag 'hopenfamily-famille.png',class:"banner-img" %>
           </div>
         </div>
         </div>
@@ -129,7 +143,7 @@
                   <%= link_to (image_tag "hopenfamily-cerca.png"), "http://cerca.labo.univ-poitiers.fr/",target:"_blank" %>
                   <%= link_to (image_tag "hopenfamily-ims.png"), "https://www.ims-bordeaux.fr/fr/",target:"_blank" %>
                   <%= link_to (image_tag "hopenfamily-l3i.jpg"), "http://l3i.univ-larochelle.fr/",target:"_blank" %>
-                  <%= link_to (image_tag "Philips_Shape.png"), "http://www.philips.fr/p-m-pr/signage-solutions",target:"_blank" %>
+                  <%= link_to (image_tag "pyramideo.jpg"), "http://www.pyramideo.fr",target:"_blank" %>
                   <%= link_to (image_tag "logo-ENSC.png"), "https://ensc.bordeaux-inp.fr/fr",target:"_blank" %>
                   <%= link_to (image_tag "nouvelle-aquitaine.png"), "https://www.nouvelle-aquitaine.fr/",target:"_blank" %>
                   <%= link_to (image_tag "chubordeaux.png"), "https://www.chu-bordeaux.fr/",target:"_blank" %>
@@ -155,7 +169,12 @@
 <div class="contact-home2 container">
   <div class="row">
     <div class="col-xs-12 col-md-12 text-center support-us">
+      <% if I18n.locale == :fr %>
+        <%= link_to (image_tag "bouton2.png"), "http://www.aecom.org/",class:"banner-img", target:"_blank" %>
+      <% end %>
+      <% if I18n.locale == :en %>
         <%= link_to (image_tag "support-us.png"), "http://www.aecom.org/",class:"banner-img",target:"_blank" %>
+      <% end %>
     </div>
   </div>
   <div class="row">
