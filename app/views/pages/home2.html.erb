@@ -1,0 +1,212 @@
+<%= render partial: 'layouts/navbar' %>
+
+<!-- Banner Home -->
+  <div class="containerBox">
+      <div class="text-box">
+        <h1>Hopen Family
+        <p><%= t "banner.title_under" %>
+        <br><%= t "banner.title_under2" %></p></h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="kick">
+                <%= image_tag 'kickstarter.png' %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <%= image_tag 'hopenfamily.jpg', class: 'banner-img' %>
+  </div>
+  <!-- End -->
+
+  <!-- Video -->
+  <div id="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+          <h1><%= t "video.title" %></h1>
+          <p><%= t "video.title_under" %><br><%= t "video.title_under2" %></p>
+          <div class="video-kick hidden-xs hidden-sm">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/uDkQB_rDlHw" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video-kick hidden-xs hidden-md hidden-lg">
+            <iframe width="425" height="240" src="https://www.youtube.com/embed/uDkQB_rDlHw" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class=" video-kick hidden-sm hidden-md hidden-lg">
+            <iframe width="300" height="140" src="https://www.youtube.com/embed/uDkQB_rDlHw" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+
+  <!-- Product -->
+  <div id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+          <h1><%= t "product.title" %></h1>
+          <p><%= t "product.title_under" %><br><%= t "product.title_under1" %></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="product-text">
+        <div class="col-xs-12 col-md-5 product-text-mobile">
+        <h3><%= t "product.title_under2" %></h3>
+        <p><%= t "product.text" %></p>
+          <%= image_tag 'kickstarter.png',class:"banner-img" %>
+        </div>
+        <div class="col-xs-12 col-md-7">
+          <%= image_tag 'hopenfamily-product.jpg', class:"banner-img" %>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+
+  <!-- carousel -->
+  <div id="carousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+          <h1><%= t "carousel.title" %></h1>
+          <p><%= t "carousel.title_under" %><br><%= t "carousel.title_under1" %></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="block-carousel">
+        <div class="col-xs-12 col-md-4">
+          <div class="text-center line-blank">
+            <h3><%= t "carousel.title1" %></h3>
+            <p><%= t "carousel.title11" %></p>
+            <%= image_tag 'hopenfamily-app.jpg',class:"banner-img2" %>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="text-center line-blank">
+            <h3><%= t "carousel.title2" %></h3>
+            <p><%= t "carousel.title22" %></p>
+          <%= image_tag 'hopenfamily-tv.png',class:"banner-img2" %>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 ">
+          <div class="text-center line-blank">
+            <h3><%= t "carousel.title3" %></h3>
+            <p><%= t "carousel.title33" %></p>
+
+          <%= image_tag 'hopenfamily-famille.png',class:"banner-img2" %>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End -->
+
+  <!-- Partners -->
+  <section id="partner" class="text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-md-12">
+                  <h2 class="section-heading"><%= t "partner.title"%></h2>
+                  <hr>
+                  <% if I18n.locale == :fr %>
+                    <%= link_to (image_tag "rtl2.png"), "http://www.rtl2.fr/actu/regions/hopen-family-lance-son-premier-concours-communautaire-7787692960",target:"_blank", class:"img_cup" %>
+                  <% end %>
+                  <% if I18n.locale == :en %>
+                    <%= link_to (image_tag "rtl2.png"), "http://hopenproject.com/press/",target:"_blank" %>
+                  <% end %>
+                    <%= link_to (image_tag "silvermag.png"), "http://silvermag.fr/gardez-contact-vos-proches-images-hopen-family/",target:"_blank" %>
+                    <%= link_to (image_tag "silver.png"), "http://www.silverautonomie.com/index.php/actualites/169-l-ecosysteme-bordelais-de-la-silver-economie",target:"_blank" %>
+                    <%= link_to (image_tag "web.png"), "https://www.youtube.com/watch?v=CcklTSyT4zg",target:"_blank" %>
+                    <%= link_to (image_tag "hopenfamily-cnews.png"), "http://www.bordeaux7.com/bordeaux-actualites/bordeaux-online/2017/03/27/hopen-family-connectent-personnes-agees-a-famille/",target:"_blank" %>
+                  <%= link_to (image_tag "logo_aec.png"), "http://www.aecom.org/",target:"_blank" %>
+                  <%= link_to (image_tag "logo.png"), "http://www.catie.fr/",target:"_blank" %>
+                  <%= link_to (image_tag "hopenfamily-cerca.png"), "http://cerca.labo.univ-poitiers.fr/",target:"_blank" %>
+                  <%= link_to (image_tag "hopenfamily-ims.png"), "https://www.ims-bordeaux.fr/fr/",target:"_blank" %>
+                  <%= link_to (image_tag "hopenfamily-l3i.jpg"), "http://l3i.univ-larochelle.fr/",target:"_blank" %>
+                  <%= link_to (image_tag "Philips_Shape.png"), "http://www.philips.fr/p-m-pr/signage-solutions",target:"_blank" %>
+                  <%= link_to (image_tag "logo-ENSC.png"), "https://ensc.bordeaux-inp.fr/fr",target:"_blank" %>
+                  <%= link_to (image_tag "nouvelle-aquitaine.png"), "https://www.nouvelle-aquitaine.fr/",target:"_blank" %>
+                  <%= link_to (image_tag "chubordeaux.png"), "https://www.chu-bordeaux.fr/",target:"_blank" %>
+                  <%= link_to (image_tag "frenchtech.png"), "http://lespepitestech.com/startup-de-la-french-tech/hopen-family",target:"_blank" %>
+                  <!-- <%= link_to (image_tag "osez.png"),"http://osezbordeaux.fr/",target:"_blank" %> -->
+
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- End -->
+
+<!-- Follow-us -->
+  <!-- <section id="follow" class="text-center">
+    <h2 class="section-heading"><%= t "follow.title" %></h2>
+    <hr>
+    <div class="fb-like hidden-xs" data-href="https://www.facebook.com/hopenfamily/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+    <div class="fb-like hidden-sm hidden-md hidden-lg" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+  </section> -->
+<!-- End -->
+
+<!-- Contact  -->
+<div class="contact-home2 container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12 text-center support-us">
+        <%= link_to (image_tag "support-us.png"), "http://www.aecom.org/",class:"banner-img",target:"_blank" %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-12 text-center">
+      <%= link_to (image_tag "hopenfamily-facebook.png"), "https://www.facebook.com/groups/hopenfamilyapp",target:"_blank" %>
+      <%= link_to (image_tag "hopenfamily-instagram.png"), "http://instagram.com/hopen.family",target:"_blank" %>
+      <%= link_to (image_tag "hopenfamily-twitter.png"), "https://twitter.com/HopenFamily",target:"_blank" %>
+      <%= link_to (image_tag "hopenfamily-linkedin.png"), "https://www.linkedin.com/company-beta/16177025",target:"_blank" %>
+      <%= link_to (image_tag "hopenfamily-youtube.png"), "https://www.youtube.com/channel/UCKIpg68cJ4Uu6VErxDeoT-Q",target:"_blank" %>
+    </div>
+  </div>
+</div>
+
+<!-- End -->
+
+  <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="text-center">
+              <h2 class="text_friends_title"><%= t "contact.about" %></h2>
+              <p class="text-muted_frineds"><%= t "contact.about_description"%><br><%= t "contact.about_description1"%><br><%= t "contact.about_description2"%></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="text-center">
+            <h2 class="text_friends_title">
+            <%=t"footer.contact", class:"text_friends_title"%></h2>
+            <%= mail_to "contact@hopenproject.com" do %>
+            <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            <% end %>
+          </div>
+          </div>
+        </div>
+          <ul class="list-inline">
+              <li>
+                  <%= link_to t("footer.privacy"), pages_mention_path, class: "link_back" %>
+              </li>
+              <li>
+                  <%= link_to "Team", pages_team_path, class: "link_back" %>
+              </li>
+          </ul>
+          <p>&copy; <%= t "footer.copy" %></p>
+      </div>
+  </footer>
+  <div id="fb-root"></div>
+
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=259735514468714";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>

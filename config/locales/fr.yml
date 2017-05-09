@@ -28,7 +28,7 @@ fr:
         description_2: "Ils les reçoivent sur leur Télévision"
         button: "Jouez maintenant !"
         navbar:
-          feature: "Concept"
+          feature: "Fonctionnalités"
           download: "Télécharger"
           download1: "Actualités"
           partner: "Partenaires"
@@ -37,6 +37,8 @@ fr:
           sign_up: "Enregistrer"
           sign_out: "Déconnecter"
           support_us: "Soutenez-nous"
+          product: "Produit"
+          story: "Histoire"
 #####################################
   features:
     title: "Concept"
@@ -78,7 +80,9 @@ fr:
 ##################################
   contact:
     about: "A propos"
-    about_description: "Hopen Family est une application à destination des personnes âgées afin de lutter contre leur isolement. Elle a été développée par la société Hopen Project."
+    about_description: "Hopen Family est un objet connecté à destination des personnes âgées"
+    about_description1: "afin de lutter contre leur isolement."
+    about_description2: " Elle a été développée par la société Hopen Project."
     love1: "We"
     love2: "new friends"
 ##################################
@@ -285,3 +289,30 @@ Mentions légales Hopen Project S.A.S. Capital 10 000 Euros SIRET 81193945300015
     title_under: "Ils nous suivent, nous relaient et parlent de nous."
     title_under1: "Découvrez les articles sur nous dans notre espace presse."
     btn: "Espace Presse"
+###########################################
+  banner:
+    title_under: "Partagez vos meilleurs moments depuis votre téléphone"
+    title_under2: "directement sur la Télé de vos grands-parents"
+###########################################
+  video:
+    title: "Histoire"
+    title_under: "Nous avons développé Hopen Family pour faciliter la communication avec vos grands-parents."
+    title_under2: "Maintenant, ils sont aussi connectés que vous en toute simplicité."
+##########################################
+  product:
+    title: "Produit"
+    title_under: "Hopen Family est l'objet de partage le plus adapté à vos grands-parents."
+    title_under1: "Soyez prêts à partager vos moments de bonheur avec eux."
+    title_under2: "Hopen Family, c'est quoi ?"
+    text: "Hopen Family est une clé HDMI connectée. Une fois branchée derrière la télévision de vos grands-parents, plus besoin d’y toucher. Téléchargez l’application Hopen Family et partagez-leur vos photos et vidéos. Ils recevront tous vos moments instantanément sur leur télévision en basculant sur le port HDMI depuis leur télécommande."
+##########################################
+  carousel:
+    title: "Fonctionnalités"
+    title_under: "Une clé connectée à la Télé côté grand-parents, une application mobile côté famille."
+    title_under1: "Maintenant, ils vont profiter de toutes vos aventures et prochains périples."
+    title1: "Sélectionnez"
+    title11: "Choissisez vos meilleures photos et vidéos via l'application Hopen Family."
+    title2: "Partagez"
+    title22: "Vos contenus sont automatiquement diffusés sur la Télé grâce à la clé HDMI."
+    title3: "Souriez"
+    title33: "Vous venez de participer à la création d'un moment de bonheur. Et plein d'autres à venir !"

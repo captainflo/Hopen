@@ -14,61 +14,35 @@
             <ul class="nav navbar-nav navbar-right">
                 <% if user_signed_in? %>
                     <%= image_tag current_user.facebook_picture_url || current_user.avatar || current_user.photo, class:" page-scroll img_avatar" %>
-                  <% if I18n.locale == :fr %>
                     <li>
-                      <a class="page-scroll" href="http://hopenproject.com/fr/actualites/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                      <a class="page-scroll" href="#video"><%= t "pages.home.header.navbar.story" %></a>
                     </li>
-                  <% end %>
-                  <% if I18n.locale == :en %>
                     <li>
-                      <a class="page-scroll" href="http://hopenproject.com/news/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                      <a class="page-scroll" href="#product"><%= t "pages.home.header.navbar.product" %></a>
                     </li>
-                  <% end %>
-                  <% if I18n.locale == :fr %>
                     <li>
-                      <a class="page-scroll" href="http://hopenproject.com/fr/temoignages-hopen-family/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
+                      <a class="page-scroll" href="#carousel"><%= t "pages.home.header.navbar.feature" %></a>
                     </li>
-                  <% end %>
-                  <% if I18n.locale == :en %>
                     <li>
-                      <a class="page-scroll" href="http://hopenproject.com/hopen-family-testimonials/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
+                      <a class="page-scroll" href="#partner"><%= t "pages.home.header.navbar.partner" %></a>
                     </li>
-                  <% end %>
-                  <!-- <li><%= link_to "Coming Soon", pages_contest_path, class:"page-scroll" %></li> -->
                   <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
                   <% if current_user.email == "nelly@gmail.com" %>
                     <li><%= link_to 'Database', users_path %> </li>
                   <% end %>
                 <% else %>
                   <li>
-                    <a class="page-scroll" href="#concept"><%= t "pages.home.header.navbar.feature" %></a>
+                    <a class="page-scroll" href="#video"><%= t "pages.home.header.navbar.story" %></a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#hopen_box"><%= t "pages.home.header.navbar.hopen_box" %></a>
+                    <a class="page-scroll" href="#product"><%= t "pages.home.header.navbar.product" %></a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#partner-play"><%= t "pages.home.header.navbar.partner" %></a>
+                    <a class="page-scroll" href="#carousel"><%= t "pages.home.header.navbar.feature" %></a>
                   </li>
-                  <% if I18n.locale == :fr %>
-                    <li>
-                      <a class="page-scroll" href="http://hopenproject.com/fr/actualites/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
-                    </li>
-                  <% end %>
-                  <% if I18n.locale == :en %>
-                    <li>
-                      <a class="page-scroll" href="http://hopenproject.com/news/" target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
-                    </li>
-                  <% end %>
-                  <% if I18n.locale == :fr %>
-                    <li>
-                      <a class="page-scroll" href="http://hopenproject.com/fr/temoignages-hopen-family/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
-                    </li>
-                  <% end %>
-                  <% if I18n.locale == :en %>
-                    <li>
-                      <a class="page-scroll" href="http://hopenproject.com/hopen-family-testimonials/" target="_blank"><%= t "pages.home.header.navbar.support_us" %></a>
-                    </li>
-                  <% end %>
+                  <li>
+                    <a class="page-scroll" href="#partner"><%= t "pages.home.header.navbar.partner" %></a>
+                  </li>
                   <li><%= link_to t('pages.home.header.navbar.sign_in'), new_user_session_path, class: "active" %></li>
                 <% end %>
 

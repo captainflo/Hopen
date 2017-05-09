@@ -1,0 +1,160 @@
+
+#video h1, #product h1, #carousel h1{
+      color: #333;
+      font-weight: lighter;
+      font-size: 50px;
+}
+
+.contact-home2 h1{
+  color: #333;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+/* Banner design */
+.containerBox {
+    position: relative;
+    display: inline-block;
+}
+.text-box {
+    position: absolute;
+    margin-top: 25%;
+    text-align: center;
+    width: 100%;
+}
+.text-box:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+
+}
+.text-box h1 {
+   display: inline-block;
+   font-size: 50px;
+   color: #2eaf95;
+   font-weight: bold;
+}
+
+.text-box span {
+  color: #cbcbca;
+}
+.text-box p {
+  display: block;
+  padding-top: 10px;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.banner-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-img2 {
+  display: block;
+  max-width: 360px;
+  height: 164px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kick img{
+  margin-top: 5%;
+  width: 350px;
+}
+
+.fa-envelope{
+     color: #2eaf95;
+}
+
+/*********** Video *************/
+#video{
+  padding-top: 80px;
+}
+
+.video-kick{
+  padding-top: 30px;
+}
+/*********** Product *************/
+#product{
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.product-text{
+  padding-top: 80px;
+}
+/*********** Carousel *************/
+#carousel{
+  padding-top: 80px;
+}
+
+.block-carousel{
+  padding-top: 80px;
+}
+.line-blank{
+  padding-bottom: 120px;
+}
+
+/*********************Responsive Mobile and IPAD ***********************/
+
+/* Banner design */
+@media screen and (min-width: 200px) and (max-width: 736px) {
+  .text-box {
+      position: absolute;
+      margin-top: 35%;
+      text-align: center;
+      width: 100%;
+  }
+  .text-box h1 {
+    font-size: 30px;
+
+  }
+  .text-box p{
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .banner-img {
+    display: block;
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .kick img{
+    margin-top: 5%;
+    width: 285px;
+  }
+  .support-us img{
+    padding-top: -30px;
+    width: 285px;
+  }
+
+  .line-blank{
+    padding-bottom: 20px;
+  }
+  .product-text-mobile{
+    text-align: center;
+  }
+
+  .product-text{
+    padding-top: 0px;
+  }
+
+  #carousel{
+    padding-top: 0px;
+  }
+  .block-carousel{
+    padding-top: 0px;
+  }
+
+  #carousel h1{
+        font-size: 40px;
+  }
+}

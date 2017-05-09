@@ -28,7 +28,7 @@ en:
         description_2: "They instantly receive news from us"
         button: "Play Now"
         navbar:
-          feature: "Concept"
+          feature: "Features"
           download: "Download"
           download1: "News"
           partner: "Partners"
@@ -37,6 +37,8 @@ en:
           sign_up: "Sign Up"
           sign_out: "Sign Out"
           support_us: "Support us"
+          product: "Product"
+          story: "Story"
 ##################################
   features:
     title: "Concept"
@@ -77,7 +79,9 @@ en:
 ##################################
   contact:
     about: "About"
-    about_description: "Hopen Family is an App designed for our grandparents to bring them back into our connected world. This project has been developed by the Hopen Project Corporation. "
+    about_description: "Hopen Family is the first smart object designed for our grandparents"
+    about_description1: "to bring them back into our connected world."
+    about_description2:  "This project has been developed by Hopen Project."
     love1: "We"
     love2: "new friends!"
 ##################################
@@ -273,3 +277,30 @@ Legal information Hopen Project S.A.S. Capital 10 000 Euros SIRET 81193945300015
     title_under: "They follow us, relay and talk about us."
     title_under1: "Discover our press releases and articles in our press area."
     btn: "Press Area"
+###########################################
+  banner:
+    title_under: "Share your best moments from your phone"
+    title_under2: "straight to your grandparents TV"
+###########################################
+  video:
+    title: "Story"
+    title_under: "We have developed Hopen Family to ease the communication between families and their grandparents."
+    title_under2: "Now, they are as connected as you are without being geek."
+##########################################
+  product:
+    title: "Product"
+    title_under: "Hopen Family is the most suitable communication device for your grandparents."
+    title_under1: "Get prepared to share your moment of happiness with them."
+    title_under2: "What is Hopen Family ?"
+    text: "Hopen Family is a smart HDMI key your grandparents have to plug behind their TV and leave it here. Download the Hopen Family App and share your best pictures and videos to them. They will instantly receive your moments on their TV by switching on the HDMI port."
+##########################################
+  carousel:
+    title: "Features"
+    title_under: "A smart key on your grandparents'TV, a mobile App in your hand."
+    title_under1: "Now more than ever, they will follow your family life and next adventures."
+    title1: "Select"
+    title11: "Pick up your best photos and videos via the Hopen Family App."
+    title2: "Share"
+    title22: "Your moments are instantly broadcasted on TV thanks to the HDMI key."
+    title3: "Smile"
+    title33: "You just spread your first moment of happiness with them. And more to come!"
