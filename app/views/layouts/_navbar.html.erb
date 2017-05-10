@@ -26,7 +26,6 @@
                     <li>
                       <a class="page-scroll" href="#partner"><%= t "pages.home.header.navbar.partner" %></a>
                     </li>
-                  <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
                   <% if current_user.email == "nelly@gmail.com" %>
                     <li><%= link_to 'Database', users_path %> </li>
                   <% end %>
@@ -43,9 +42,40 @@
                   <li>
                     <a class="page-scroll" href="#partner"><%= t "pages.home.header.navbar.partner" %></a>
                   </li>
-                  <li><%= link_to t('pages.home.header.navbar.sign_in'), new_user_session_path, class: "active" %></li>
                 <% end %>
 
+                <!-- News Actu -->
+                <% if I18n.locale == :fr %>
+                <li>
+                  <a class="page-scroll" href="http://hopenproject.com/fr/temoignages-hopen-family/", target="_blank"><%= t "pages.home.header.navbar.testimonial" %></a>
+                </li>
+                <% end %>
+                <li>
+                <% if I18n.locale == :en %>
+                  <a class="page-scroll" href="http://hopenproject.com/hopen-family-testimonials/", target="_blank"><%= t "pages.home.header.navbar.testimonial" %></a>
+                </li>
+                <% end %>
+                <% if I18n.locale == :fr %>
+                <li>
+                  <a class="page-scroll" href="http://hopenproject.com/actualites/", target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                </li>
+                <% end %>
+                <li>
+                <% if I18n.locale == :en %>
+                  <a class="page-scroll" href="http://hopenproject.com/new/", target="_blank"><%= t "pages.home.header.navbar.download1" %></a>
+                </li>
+                <% end %>
+                <!-- end -->
+
+                <!-- sign_in sign_out -->
+                <% if user_signed_in? %>
+                  <li><%= link_to t('pages.home.header.navbar.sign_out'), destroy_user_session_path, method: :delete, class:"page-scroll" %></li>
+                <% else %>
+                  <li><%= link_to t('pages.home.header.navbar.sign_in'), new_user_session_path, class: "active" %></li>
+                <% end %>
+                <!-- end -->
+
+                <!-- Flag -->
                 <% if I18n.locale == :fr %>
                 <li><%= link_to_unless_current image_tag('flag5.png'), locale: "en"%></li>
                 <% end %>
