@@ -5,20 +5,6 @@
       <div class="text-box">
         <h1>Hopen Family
         <p><%= t "banner.title_under" %></p></h1>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-              <div class="kick">
-                <% if I18n.locale == :fr %>
-                  <%= link_to (image_tag "kickstarterfr.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand", target:"_blank" %>
-                <% end %>
-                <% if I18n.locale == :en %>
-                  <%= link_to (image_tag "kickstarter.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand",target:"_blank" %>
-                <% end %>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <%= image_tag 'hopenfamily.jpg', class: 'banner-img' %>
   </div>
@@ -60,16 +46,7 @@
         <div class="col-xs-12 col-md-5 product-text-mobile">
         <h3><%= t "product.title_under2" %></h3>
         <p><%= t "product.text" %></p>
-        <% if I18n.locale == :fr %>
-          <div class="block-product">
-            <%= link_to (image_tag "kickstarterfr.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand", target:"_blank" %>
-          </div>
-        <% end %>
-        <% if I18n.locale == :en %>
-          <div class="block-product">
-            <%= link_to (image_tag "kickstarter.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand",target:"_blank" %>
-          </div>
-        <% end %>
+
         </div>
         <div class="col-xs-12 col-md-7">
           <%= image_tag 'hopenfamily-product.jpg', class:"banner-img" %>
@@ -166,16 +143,6 @@
 
 <!-- Contact  -->
 <div class="contact-home2 container">
-  <div class="row">
-    <div class="col-xs-12 col-md-12 text-center support-us">
-      <% if I18n.locale == :fr %>
-        <%= link_to (image_tag "bouton2.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand",class:"banner-img", target:"_blank" %>
-      <% end %>
-      <% if I18n.locale == :en %>
-        <%= link_to (image_tag "support-us.png"), "https://www.kickstarter.com/projects/hopenfamily/hopen-family-the-first-smart-object-for-your-grand",class:"banner-img",target:"_blank" %>
-      <% end %>
-    </div>
-  </div>
   <div class="row">
     <div class="col-xs-12 col-md-12 text-center">
       <%= link_to (image_tag "hopenfamily-facebook.png"), "https://www.facebook.com/groups/hopenfamilyapp",target:"_blank" %>
